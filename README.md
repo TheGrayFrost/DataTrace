@@ -27,14 +27,14 @@ There are 3 types of instructions we consider for our applications:
 * Procedure Calls (denoted by flag C)
 
 A sample event might look like this:
-> THREADID: 1, EVENT SEQ: 428
-> LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 16
-> FUNCTION: trythis
-> INS: 0x4008ae: call 0x400680 - C
-> TARGET: puts@plt
-> SYNC: Has synchronous access with the following locks:
-> 0x6010a0 as Pthread Mutex
-> 0x4315a4 as Semaphore
+> THREADID: 1, EVENT SEQ: 428  
+> LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 16  
+> FUNCTION: trythis  
+> INS: 0x4008ae: call 0x400680 - C  
+> TARGET: puts@plt  
+> SYNC: Has synchronous access with the following locks:  
+> 0x6010a0 as Pthread Mutex  
+> 0x4315a4 as Semaphore  
 
 All events have these basic attributes:
 * THREADID, EVENTSEQ: Thread Id & Event Sequence No. (within the thread) - Uniquely identify each event.
