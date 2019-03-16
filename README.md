@@ -12,11 +12,11 @@ The run-time trace of the executable is combined with the static source code inf
 
 Congratulations! You're done. The trace is available in the .dump generated.  
 ### Generating trace from source files
-If your executable is not compiled with debugging options, or you don't know if it is. Don't worry, we still got you if you have the source files. The trace generation stays the same. 
-##### **Note: We currently support only C and C++ sources.**
+If your executable is not compiled with debugging options, or you don't know if it is. Don't worry, we still got you if you have the source file. The trace generation stays the same. 
 1. In DataTrace, run `cd Work; make </path/to/main/file>.dump`
 
 Congratulations! You're done. The trace is available in the .dump generated.  
+##### **Note: We currently support only C and C++ sources. Also, if your project requires a complicated build, linking multiple object files and what not... we'd suggest you learn to build the final executable with the debugging info. Here's a helpful link: [Debug Options in GCC]**
 
 ## Understanding the Trace
 The trace has the events listed out in time-order. 
@@ -27,14 +27,14 @@ There are 3 types of instructions we consider for our applications:
 * Procedure Calls (denoted by flag C)
 
 A sample event might look like this:
-> THREADID: 1, EVENT SEQ: 428  
-> LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 16  
-> FUNCTION: trythis  
-> INS: 0x4008ae: call 0x400680 - C  
-> TARGET: puts@plt  
-> SYNC: Has synchronous access with the following locks:  
-> 0x6010a0 as Pthread Mutex  
-> 0x4315a4 as Semaphore  
+> THREADID: 1, EVENT SEQ: 428
+> LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 16
+> FUNCTION: trythis
+> INS: 0x4008ae: call 0x400680 - C
+> TARGET: puts@plt
+> SYNC: Has synchronous access with the following locks:
+> 0x6010a0 as Pthread Mutex
+> 0x4315a4 as Semaphore
 
 All events have these basic attributes:
 * THREADID, EVENTSEQ: Thread Id & Event Sequence No. (within the thread) - Uniquely identify each event.
@@ -59,3 +59,4 @@ There are also the following event-specific attributes:
 [DataTrace]: <https://github.com/TheGrayFrost/DataTrace>
 [Intel PIN]: <https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool>
 [LLVM]: <https://llvm.org/>
+[Debug Options in GCC]: <https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html>
