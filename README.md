@@ -16,7 +16,8 @@ If your executable is not compiled with debugging options, or you don't know if 
 1. In DataTrace, run `cd Work; make </path/to/main/file>.dump`
 
 Congratulations! You're done. The trace is available in the .dump generated.  
-##### **Note: We currently support only C and C++ sources. Also, if your project requires a complicated build, linking multiple object files and what not... we'd suggest you learn to build the final executable with the debugging info. Here's a helpful link: [Debug Options in GCC]**
+##### **Note: We currently support only C and C++ sources. More importantly, if your project requires a complicated build, involves linking multiple object files and what not... we'd suggest you _learn_ how to build the final executable with the debugging info.  
+Here's a helpful link: [Debug Options in GCC]**
 
 ## Understanding the Trace
 The trace has the events listed out in time-order. 
