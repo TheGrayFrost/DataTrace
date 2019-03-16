@@ -1,0 +1,982 @@
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 29
+FUNCTION: main
+INS: 0x400893: push rbp - n 
+RR: 2 rbp rsp 
+WR: 1 rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 29
+FUNCTION: main
+INS: 0x400894: mov rbp, rsp - n 
+RR: 1 rsp 
+WR: 1 rbp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 29
+FUNCTION: main
+INS: 0x400897: sub rsp, 0x10 - n 
+RR: 1 rsp 
+WR: 2 rsp rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 30
+FUNCTION: main
+INS: 0x40089b: mov dword ptr [rbp-0x4], 0x0 - w 0x7ffda0bd564c
+RR: 1 rbp 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 30
+FUNCTION: main
+INS: 0x4008a2: mov dword ptr [rbp-0x8], 0x0 - w 0x7ffda0bd5648
+RR: 1 rbp 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 32
+FUNCTION: main
+INS: 0x4008a9: mov edi, 0x400a2d - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 32
+FUNCTION: main
+INS: 0x4008ae: call 0x400680 - n 
+TARGET: puts@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 34
+FUNCTION: main
+INS: 0x4008b3: mov esi, 0x0 - n 
+RR: 0 
+WR: 1 esi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 34
+FUNCTION: main
+INS: 0x4008b8: mov edi, 0x6010a0 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 34
+FUNCTION: main
+INS: 0x4008bd: call 0x400700 - n 
+TARGET: pthread_mutex_init@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 34
+FUNCTION: main
+INS: 0x4008c2: test eax, eax - n 
+RR: 2 eax eax 
+WR: 1 rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 34
+FUNCTION: main
+INS: 0x4008c4: jz 0x4008da - n 
+RR: 2 rip rflags 
+WR: 1 rip 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 40
+FUNCTION: main
+INS: 0x4008da: jmp 0x40092b - n 
+RR: 1 rip 
+WR: 1 rip 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 40
+FUNCTION: main
+INS: 0x40092b: cmp dword ptr [rbp-0x4], 0x1 - r 0x7ffda0bd564c
+RR: 1 rbp 
+WR: 1 rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 40
+FUNCTION: main
+INS: 0x40092f: jle 0x4008dc - n 
+RR: 2 rip rflags 
+WR: 1 rip 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008dc: mov eax, dword ptr [rbp-0x4] - r 0x7ffda0bd564c
+RR: 1 rbp 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008df: cdqe  - n 
+RR: 1 eax 
+WR: 1 rax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008e1: shl rax, 0x3 - n 
+RR: 1 rax 
+WR: 2 rax rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008e5: add rax, 0x6010d0 - n 
+RR: 1 rax 
+WR: 2 rax rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008eb: mov ecx, 0x0 - n 
+RR: 0 
+WR: 1 ecx 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008f0: mov edx, 0x40081d - n 
+RR: 0 
+WR: 1 edx 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008f5: mov esi, 0x0 - n 
+RR: 0 
+WR: 1 esi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008fa: mov rdi, rax - n 
+RR: 1 rax 
+WR: 1 rdi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008fd: call 0x400670 - n 
+TARGET: pthread_create@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x400902: mov dword ptr [rbp-0xc], eax - w 0x7ffda0bd5644
+RR: 2 rbp eax 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 43
+FUNCTION: main
+INS: 0x400905: cmp dword ptr [rbp-0xc], 0x0 - r 0x7ffda0bd5644
+RR: 1 rbp 
+WR: 1 rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 43
+FUNCTION: main
+INS: 0x400909: jz 0x400927 - n 
+RR: 2 rip rflags 
+WR: 1 rip 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 45
+FUNCTION: main
+INS: 0x400927: add dword ptr [rbp-0x4], 0x1 - r 0x7ffda0bd564c
+RR: 1 rbp 
+WR: 1 rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 40
+FUNCTION: main
+INS: 0x40092b: cmp dword ptr [rbp-0x4], 0x1 - r 0x7ffda0bd564c
+RR: 1 rbp 
+WR: 1 rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 40
+FUNCTION: main
+INS: 0x40092f: jle 0x4008dc - n 
+RR: 2 rip rflags 
+WR: 1 rip 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008dc: mov eax, dword ptr [rbp-0x4] - r 0x7ffda0bd564c
+RR: 1 rbp 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008df: cdqe  - n 
+RR: 1 eax 
+WR: 1 rax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008e1: shl rax, 0x3 - n 
+RR: 1 rax 
+WR: 2 rax rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008e5: add rax, 0x6010d0 - n 
+RR: 1 rax 
+WR: 2 rax rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008eb: mov ecx, 0x0 - n 
+RR: 0 
+WR: 1 ecx 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008f0: mov edx, 0x40081d - n 
+RR: 0 
+WR: 1 edx 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008f5: mov esi, 0x0 - n 
+RR: 0 
+WR: 1 esi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008fa: mov rdi, rax - n 
+RR: 1 rax 
+WR: 1 rdi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x4008fd: call 0x400670 - n 
+TARGET: pthread_create@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 42
+FUNCTION: main
+INS: 0x400902: mov dword ptr [rbp-0xc], eax - w 0x7ffda0bd5644
+RR: 2 rbp eax 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 43
+FUNCTION: main
+INS: 0x400905: cmp dword ptr [rbp-0xc], 0x0 - r 0x7ffda0bd5644
+RR: 1 rbp 
+WR: 1 rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 43
+FUNCTION: main
+INS: 0x400909: jz 0x400927 - n 
+RR: 2 rip rflags 
+WR: 1 rip 
+SYNC: Has asynchronous access.
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 12
+FUNCTION: trythis
+INS: 0x40081d: push rbp - n 
+RR: 2 rbp rsp 
+WR: 1 rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 12
+FUNCTION: trythis
+INS: 0x40081e: mov rbp, rsp - n 
+RR: 1 rsp 
+WR: 1 rbp 
+SYNC: Has asynchronous access.
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 12
+FUNCTION: trythis
+INS: 0x400821: sub rsp, 0x20 - n 
+RR: 1 rsp 
+WR: 2 rsp rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 2
+LOCATION: /home/srijoniT/HRVEAiDIshDe:s h/DataTrace/Work/bares.c: 10
+,L OCA1TI2ON: 
+F/UhNoCmTIOe/N:s trriytjhoni/Visi
+sINShes:h /D0atxaT4r0a08c2e/5W:o rmok/vb aqwroes.rdc:  ptr [rb0p-,0 x181],2 rdi -
+ FUw 0xNC7TfI9O0N3: t7c4ryth2is
+eINf8S
+: R0Rx: 40028 rb1p rdd:i  
+pusWRh:  r0b p
+ -S n Y
+RNCR: H:a s a2sync hrrbop nrsp 
+oWus R:a cces1s .
+rs
+p 
+STHYNRCE: AHaDsI D:a sync2hron
+oLOusCA aTIccON:e /homes/ss.
+
+riTjHonRTEHREAADDiI/VD:I D:i0 
+sLO1CA
+LTIOCONAT:IO N: h/es/homeho/srmijoeni/Vi/sshesh/DataTrace/Work/bares.c: 0, 45h/r
+iFUjNCTION: maionD
+nINS: i/a0Vixtsa4Th00927: eadd drworda ptr [rbp-0x4]ce/Work/ba, 0rsh/x1 - r Dat0axTrea7ffsda0cbd564c
+RR: e.c1: rbp  
+WR: /1W 0r, flaogrs 
+kSYNC13: Has asynchronou
+s/F access.
+
+UTNHREADID:C b0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 40
+FUNCTION: main
+INS: 0x40092b: cmp TION: trythis
+INdSword ptr [rbp-:0x4], a0resx1 - r 0x.c7 0xff:da0b4d564c 
+RR: 010 0829rbp 
+WR: :1 ,rflag s 1 
+2S
+FYNC: Has asynchronUNCTION: otus amccess.
+
+ryTHREADID: ov0 ea
+xLOCATION, dword pt:r  [/ripho+me/s0rijoni/Vxishesh/DataTrace/Work/bares.c: 200t, 04809
+FUNCTION: hmiain
+sI
+INS: 0x9]N - r S: 0x040092f4x00861: 0jle 0x400e8d: 1c0 c- 8m
+RRn 
+RR: : ov r2bp, rsp -1 rip   nrip  
+r
+WRflags 
+WR: :1RR:  ri1p 
+SYN  C1: Has er asynchrsonouas accesxp 
+WRs.
+
+ : 
+S1T HRrbEADIDYp 
+SYNC: :0
+ LOCATION: Ha/NC: s home/srijoni/Vishesh/DatasyaTrace/WoHrk/bares.ca: n0c, hs48
+FUNCTIO aN: ronoums ainacc
+INessyS: s0xnc.400931
+
+: Tmov hHraxro, qword pRtr [nrip+0x200798ou] sEA-  r 0xa601DID0d0
+RcR:cess. 
+
+: 1TH2 R
+EripL OACATI
+WR: ON1 DIrax 
+D::  SYNC1:
+LO Has asyncCATION: /hro/hnohus accoemess./o
+
+mTHREADID: sr0
+e/LOCATsriiION: /jhome/srijonoini//Vishesh/DataTrajoni/Vce/iWoVirshk/barsees.c: hesh0/sDat, h48/D
+aTFUrNCTION: main
+aINS: ace/Work/bares.c: 0, 13
+0FUNCTION: trythis
+INS: 0x40082fx: m40093ov8t: maTracov e si,ee 0/Wsx0 - ni,o r
+RR:  k/b0eax a
+WrR: es.c 1: - n 0 
+RResi, :  12
+
+FUSYNC: NHas CTaIsON:ynchronous acces1s.
+
+ THRE AeDItaD: rx 0
+yWR
+:thLOCATION:is
+IN  /home/srSijoni/Vishesh: 0x/DataTr4ace/Wo0rk/bares.c1:0  0e, 82s48i
+FUNCTION: 1 
+SYmainNC
+: :H sINS: 0xub r40093dsas:  pmov rdi, rax - n 
+RR: a, s1 yra0x20 - x 
+WR: nchrn 
+1oRR nrdous ai 
+SYNC: Hasccess.
+
+ asynchronous acce:ss.
+
+ T1 rsp HREADID:
+WTHR R0
+LOCATIONEA: /hDIDo: me/srijoni/Vishesh/D2 rsp at:rflaTrace/Work/baraesgs 
+SYNC: Ha. c: 20s
+, L48
+FUNCT aION: symnaiOn
+INCS: 0xch400940: call ATI0xONr4o0:06d0  - /hno me/
+TsrARijoni/VisheGshn/DoET: puattaTrhrsead_join@plta 
+RcaceR: c2 /Wriop rresp 
+WR: k/2ss.
+
+ brip Tarsp 
+SYNC: Has HREresasynchronous access..
+
+ADID:c:  0, 1
+13LO
+FCATIONU:NC /TIhON:o trymthies
+INS: 0x400831: mov edi, 0x400a00 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has /assyrijonchni/Virshoenosuhs/ DacactesasTra.
+c
+e/TWoHRErAkD/bIaDre:s .2c
+:LOCA TION0: /,h o1m2e/
+FsriUjNoCTION: trythis
+INS: 0x400825: mnoiv /qVisword hpetsrh/ Dat[aTrbpr-a0x1ce/W8or],k /rbdari e-s w 0x.c7f9:0 38d504, e1f83
+R
+FRUNCTI:ON:  tr2yt hirs
+bp INrdS:i  
+0xWR:4 008360: 
+SY NC:m Hoas asyv enacxhrono,u 0s ax0 c-c nes s
+R.R
+:
+ 0T H
+WRRE:A DID: 1 eax1 
+S
+YNLCO: CHAaTsI asOyNn:ch ro/nhoomeus/s rijoani/ccViesshessh/.D
+at
+aTraTHREceADID/W: or2
+LkO/CATIbaOrN:e /home/ssr.ijocn: i/0Vi,s he13sh
+/FUDataTrNCacTeION/: Wotrrky/thbairses.
+IcN:S: 0x 400082,9 :1 3m
+FUoNv eaCTx,I dON:wo rtdry pttrh is[
+rip+I0xNS2: 00089x9] 40- r 083b0x: 6call01 00c8x4
+0RR06:9 0 - 1n  
+rTipAR 
+GEWT: Rpr: intf1@ pealx t
+
+SRR:YN C: 2 Hasr iaps yrnspc h
+roWRn:ous  acces2s.
+ r
+ip rspT 
+HRESADYNIDC: Ha:s  async1hr
+onous LaOcCceATssI.O
+N
+: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 13
+FUNCTION: trythis
+INS: 0x40082f: mov esi, eax - n 
+RR: 1 eax 
+WR: 1 esi 
+SYNC: Has asynchronous access.
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 13
+FUNCTION: trythis
+INS: 0x400831: mov edi, 0x400a00 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has asynchronous access.
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 13
+FUNCTION: trythis
+INS: 0x400836: mov eax, 0x0 - n 
+RR: 0 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 13
+FUNCTION: trythis
+INS: 0x40083b: call 0x400690 - n 
+TARGET: printf@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 14
+FUNCTION: trythis
+INS: 0x400840: mov edi, 0x6010a0 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has asynchronous access.
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 14
+FUNCTION: trythis
+INS: 0x400845: call 0x400710 - n 
+TARGET: pthread_mutex_lock@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+MILA MILA!!!!! DOOSRA!!
+LOCATION: : 0, 0
+FUNCTION: pthread_mutex_lock@plt
+INS: 0x400710: jmp qword ptr [rip+0x200952] - r 0x0
+RR: 1 rip 
+WR: 1 rip 
+setting syncs 1 6010a0
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 14
+FUNCTION: trythis
+INS: 0x400840: mov edi, 0x6010a0 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has asynchronous access.
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 14
+FUNCTION: trythis
+INS: 0x400845: call 0x400710 - n 
+TARGET: pthread_mutex_lock@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+MILA MILA!!!!! DOOSRA!!
+LOCATION: : 0, 0
+FUNCTION: pthread_mutex_lock@plt
+INS: 0x400710: jmp qword ptr [rip+0x200952] - r 0x0
+RR: 1 rip 
+WR: 1 rip 
+setting syncs 2 6010a0
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 16
+FUNCTION: trythis
+INS: 0x40084a: mov qword ptr [rbp-0x8], 0x0 - w 0x7f9038d54f08
+RR: 1 rbp 
+WR: 0 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 17
+FUNCTION: trythis
+INS: 0x400852: mov eax, dword ptr [rip+0x200870] - r 0x6010c8
+RR: 1 rip 
+WR: 1 eax 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 17
+FUNCTION: trythis
+INS: 0x400858: add eax, 0x1 - n 
+RR: 1 eax 
+WR: 2 eax rflags 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 17
+FUNCTION: trythis
+INS: 0x40085b: mov dword ptr [rip+0x200867], eax - w 0x6010c8
+RR: 2 rip eax 
+WR: 0 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 19
+FUNCTION: trythis
+INS: 0x400861: mov edi, 0x1 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 19
+FUNCTION: trythis
+INS: 0x400866: call 0x4006f0 - n 
+TARGET: sleep@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 21
+FUNCTION: trythis
+INS: 0x40086b: mov eax, dword ptr [rip+0x200857] - r 0x6010c8
+RR: 1 rip 
+WR: 1 eax 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 21
+FUNCTION: trythis
+INS: 0x400871: mov esi, eax - n 
+RR: 1 eax 
+WR: 1 esi 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 21
+FUNCTION: trythis
+INS: 0x400873: mov edi, 0x400a16 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 21
+FUNCTION: trythis
+INS: 0x400878: mov eax, 0x0 - n 
+RR: 0 
+WR: 1 eax 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 21
+FUNCTION: trythis
+INS: 0x40087d: call 0x400690 - n 
+TARGET: printf@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 23
+FUNCTION: trythis
+INS: 0x400882: mov edi, 0x6010a0 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 23
+FUNCTION: trythis
+INS: 0x400887: call 0x4006c0 - n 
+TARGET: pthread_mutex_unlock@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+MILA MILA PEHLA!!!!!
+LOCATION: : 0, 0
+FUNCTION: pthread_mutex_unlock@plt
+INS: 0x4006c0: jmp qword ptr [rip+0x20097a] - r 0x0
+RR: 1 rip 
+WR: 1 rip 
+
+
+unsetting syncs 1 6010a0
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 25
+FUNCTION: trythis
+INS: 0x40088c: mov eax, 0x0 - n 
+RR: 0 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 26
+FUNCTION: trythis
+INS: 0x400891: leave  - n 
+RR: 3 rbp rbp rsp 
+WR: 2 rbp rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 1
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 26
+FUNCTION: trythis
+INS: 0x400892: ret  - n 
+RR: 1 rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 16
+FUNCTION: trythis
+INS: 0x40084a: mov qword ptr [rbp-0x8], 0x0 - w 0x7f9037c42f08
+RR: 1 rbp 
+WR: 0 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 17
+FUNCTION: trythis
+INS: 0x400852: mov eax, dword ptr [rip+0x200870] - r 0x6010c8
+RR: 1 rip 
+WR: 1 eax 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 17
+FUNCTION: trythis
+INS: 0x400858: add eax, 0x1 - n 
+RR: 1 eax 
+WR: 2 eax rflags 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 17
+FUNCTION: trythis
+INS: 0x40085b: mov dword ptr [rip+0x200867], eax - w 0x6010c8
+RR: 2 rip eax 
+WR: 0 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 19
+FUNCTION: trythis
+INS: 0x400861: mov edi, 0x1 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 19
+FUNCTION: trythis
+INS: 0x400866: call 0x4006f0 - n 
+TARGET: sleep@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 49
+FUNCTION: main
+INS: 0x400945: mov rax, qword ptr [rip+0x20078c] - r 0x6010d8
+RR: 1 rip 
+WR: 1 rax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 49
+FUNCTION: main
+INS: 0x40094c: mov esi, 0x0 - n 
+RR: 0 
+WR: 1 esi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 49
+FUNCTION: main
+INS: 0x400951: mov rdi, rax - n 
+RR: 1 rax 
+WR: 1 rdi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 49
+FUNCTION: main
+INS: 0x400954: call 0x4006d0 - n 
+TARGET: pthread_join@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 21
+FUNCTION: trythis
+INS: 0x40086b: mov eax, dword ptr [rip+0x200857] - r 0x6010c8
+RR: 1 rip 
+WR: 1 eax 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 21
+FUNCTION: trythis
+INS: 0x400871: mov esi, eax - n 
+RR: 1 eax 
+WR: 1 esi 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 21
+FUNCTION: trythis
+INS: 0x400873: mov edi, 0x400a16 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 21
+FUNCTION: trythis
+INS: 0x400878: mov eax, 0x0 - n 
+RR: 0 
+WR: 1 eax 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 21
+FUNCTION: trythis
+INS: 0x40087d: call 0x400690 - n 
+TARGET: printf@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 23
+FUNCTION: trythis
+INS: 0x400882: mov edi, 0x6010a0 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 23
+FUNCTION: trythis
+INS: 0x400887: call 0x4006c0 - n 
+TARGET: pthread_mutex_unlock@plt
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has synchronous access with the following locks:
+0x6010a0 as mutex
+
+MILA MILA PEHLA!!!!!
+LOCATION: : 0, 0
+FUNCTION: pthread_mutex_unlock@plt
+INS: 0x4006c0: jmp qword ptr [rip+0x20097a] - r 0x0
+RR: 1 rip 
+WR: 1 rip 
+
+
+unsetting syncs 2 6010a0
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 25
+FUNCTION: trythis
+INS: 0x40088c: mov eax, 0x0 - n 
+RR: 0 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 26
+FUNCTION: trythis
+INS: 0x400891: leave  - n 
+RR: 3 rbp rbp rsp 
+WR: 2 rbp rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 2
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 26
+FUNCTION: trythis
+INS: 0x400892: ret  - n 
+RR: 1 rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 50
+FUNCTION: main
+INS: 0x400959: mov edi, 0x6010a0 - n 
+RR: 0 
+WR: 1 edi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 50
+FUNCTION: main
+INS: 0x40095e: call 0x4006a0 - n 
+TARGET: pthread_mutex_destroy@plt
+RR: 2 riOh God!!
+
+ Job 0 has started
+
+ Job 0 has started
+
+ Job 1 has finished
+
+ Job 2 has finished
+p rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 52
+FUNCTION: main
+INS: 0x400963: mov eax, 0x0 - n 
+RR: 0 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 53
+FUNCTION: main
+INS: 0x400968: leave  - n 
+RR: 3 rbp rbp rsp 
+WR: 2 rbp rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/bares.c: 0, 53
+FUNCTION: main
+INS: 0x400969: ret  - n 
+RR: 1 rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+

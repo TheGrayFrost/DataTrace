@@ -1,0 +1,12 @@
+digraph G {
+"stack G_55d0e37f6140" -> "55d0e4ac1ec0"
+"stack G_55d0e37f6140" -> "55d0e4ac1ec1"
+"stack G_55d0e37f6140" -> "55d0e4ac1ec2"
+"stack G_55d0e37f6140" -> "55d0e4ac1ec3"
+"stack G_55d0e37f6140" -> "55d0e4ac1ec4"
+"stack G_55d0e37f6140" -> "55d0e4ac1ec5"
+"stack G_55d0e37f6140" -> "55d0e4ac1ec6"
+R_1 [label = "main" shape = "box"]
+"stack G_55d0e37f6140" -> R_1 [color = "green"]
+R_1 -> "stack G_55d0e37f6140" [color = "yellow"]
+}

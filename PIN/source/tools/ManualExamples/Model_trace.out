@@ -1,0 +1,26 @@
+69217 parent
+The Start Thread is :0
+
+The Main Thread is :0
+
+The Create Sequence :
+
+ 1 : Thread 0 Creates Thread 1
+
+The Create Summary:
+
+Thread 0 creates 
+Thread 1
+
+There are no global variables in this program hence no communication via global variables
+
+The Exit Sequence:
+
+ 1 : Thread :0   JOINS
+
+ 2 : Thread :1   EXITS
+
+ 3 : Thread :0   EXITS
+
+
+There are no global variables in this program 

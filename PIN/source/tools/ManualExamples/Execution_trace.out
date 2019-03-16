@@ -1,0 +1,761 @@
+
+Event 0 : Thread 0 Reads from variable whose address is 6295064  
+
+Event 1 : Thread 0 Reads from variable whose address is 6295080  
+
+Event 2 : Thread 0 Reads from variable whose address is 6295096  
+
+Event 3 : Thread 0 Reads from variable whose address is 6295112  
+
+Event 4 : Thread 0 Reads from variable whose address is 6295128  
+
+Event 5 : Thread 0 Reads from variable whose address is 6295144  
+
+Event 6 : Thread 0 Reads from variable whose address is 6295160  
+
+Event 7 : Thread 0 Reads from variable whose address is 6295176  
+
+Event 8 : Thread 0 Reads from variable whose address is 6295192  
+
+Event 9 : Thread 0 Reads from variable whose address is 6295208  
+
+Event 10 : Thread 0 Reads from variable whose address is 6295224  
+
+Event 11 : Thread 0 Reads from variable whose address is 6295240  
+
+Event 12 : Thread 0 Reads from variable whose address is 6295256  
+
+Event 13 : Thread 0 Reads from variable whose address is 6295272  
+
+Event 14 : Thread 0 Reads from variable whose address is 6295288  
+
+Event 15 : Thread 0 Reads from variable whose address is 6295304  
+
+Event 16 : Thread 0 Reads from variable whose address is 6295320  
+
+Event 17 : Thread 0 Reads from variable whose address is 6295336  
+
+Event 18 : Thread 0 Reads from variable whose address is 6295352  
+
+Event 19 : Thread 0 Reads from variable whose address is 6295368  
+
+Event 20 : Thread 0 Reads from variable whose address is 6295384  
+
+Event 21 : Thread 0 Reads from variable whose address is 6295400  
+
+Event 22 : Thread 0 Reads from variable whose address is 6295416  
+
+Event 23 : Thread 0 Reads from variable whose address is 6295432  
+
+Event 24 : Thread 0 Reads from variable whose address is 6295448  
+
+Event 25 : Thread 0 Reads from variable whose address is 6295200  
+
+Event 26 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 27 : Thread 0 Reads from variable whose address is 6295064  
+
+Event 28 : Thread 0 Reads from variable whose address is 6295072  
+
+Event 29 : Thread 0 Reads from variable whose address is 6295080  
+
+Event 30 : Thread 0 Reads from variable whose address is 6295088  
+
+Event 31 : Thread 0 Reads from variable whose address is 6295096  
+
+Event 32 : Thread 0 Reads from variable whose address is 6295112  
+
+Event 33 : Thread 0 Reads from variable whose address is 6295128  
+
+Event 34 : Thread 0 Reads from variable whose address is 6295144  
+
+Event 35 : Thread 0 Reads from variable whose address is 6295160  
+
+Event 36 : Thread 0 Reads from variable whose address is 6295176  
+
+Event 37 : Thread 0 Reads from variable whose address is 6295192  
+
+Event 38 : Thread 0 Reads from variable whose address is 6295208  
+
+Event 39 : Thread 0 Reads from variable whose address is 6295224  
+
+Event 40 : Thread 0 Reads from variable whose address is 6295240  
+
+Event 41 : Thread 0 Reads from variable whose address is 6295256  
+
+Event 42 : Thread 0 Reads from variable whose address is 6295272  
+
+Event 43 : Thread 0 Reads from variable whose address is 6295288  
+
+Event 44 : Thread 0 Reads from variable whose address is 6295304  
+
+Event 45 : Thread 0 Reads from variable whose address is 6295320  
+
+Event 46 : Thread 0 Reads from variable whose address is 6295336  
+
+Event 47 : Thread 0 Reads from variable whose address is 6295352  
+
+Event 48 : Thread 0 Reads from variable whose address is 6295368  
+
+Event 49 : Thread 0 Reads from variable whose address is 6295384  
+
+Event 50 : Thread 0 Reads from variable whose address is 6295400  
+
+Event 51 : Thread 0 Reads from variable whose address is 6295416  
+
+Event 52 : Thread 0 Reads from variable whose address is 6295432  
+
+Event 53 : Thread 0 Reads from variable whose address is 6295448  
+
+Event 54 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 55 : Thread 0 Reads from variable whose address is 6295408  
+
+Event 56 : Thread 0 Reads from variable whose address is 6295440  
+
+Event 57 : Thread 0 Reads from variable whose address is 6295408  
+
+Event 58 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 59 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 60 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 61 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 62 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 63 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 64 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 65 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 66 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 67 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 68 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 69 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 70 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 71 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 72 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 73 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 74 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 75 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 76 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 77 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 78 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 79 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 80 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 81 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 82 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 83 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 84 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 85 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 86 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 87 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 88 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 89 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 90 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 91 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 92 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 93 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 94 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 95 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 96 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 97 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 98 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 99 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 100 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 101 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 102 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 103 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 104 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 105 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 106 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 107 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 108 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 109 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 110 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 111 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 112 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 113 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 114 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 115 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 116 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 117 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 118 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 119 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 120 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 121 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 122 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 123 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 124 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 125 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 126 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 127 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 128 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 129 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 130 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 131 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 132 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 133 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 134 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 135 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 136 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 137 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 138 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 139 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 140 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 141 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 142 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 143 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 144 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 145 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 146 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 147 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 148 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 149 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 150 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 151 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 152 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 153 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 154 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 155 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 156 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 157 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 158 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 159 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 160 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 161 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 162 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 163 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 164 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 165 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 166 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 167 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 168 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 169 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 170 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 171 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 172 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 173 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 174 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 175 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 176 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 177 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 178 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 179 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 180 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 181 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 182 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 183 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 184 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 185 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 186 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 187 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 188 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 189 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 190 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 191 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 192 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 193 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 194 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 195 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 196 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 197 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 198 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 199 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 200 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 201 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 202 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 203 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 204 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 205 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 206 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 207 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 208 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 209 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 210 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 211 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 212 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 213 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 214 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 215 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 216 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 217 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 218 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 219 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 220 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 221 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 222 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 223 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 224 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 225 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 226 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 227 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 228 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 229 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 230 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 231 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 232 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 233 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 234 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 235 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 236 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 237 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 238 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 239 : Thread 0 Reads from variable whose address is 6295296  
+
+Event 240 : Thread 0 Reads from variable whose address is 6295560  
+
+Event 241 : Thread 0 Reads from variable whose address is 6295360  
+
+Event 242 : Thread 0 Reads from variable whose address is 6295376  
+
+Event 243 : Thread 0 Reads from variable whose address is 6295344  
+
+Event 244 : Thread 0 Reads from variable whose address is 6295312  
+
+Event 245 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 246 : Thread 0 Reads from variable whose address is 6295440  
+
+Event 247 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 248 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 249 : Thread 0 Reads from variable whose address is 6295576  
+
+Event 250 : Thread 0 Reads from variable whose address is 6295584  
+
+Event 251 : Thread 0 Reads from variable whose address is 6295592  
+
+Event 252 : Thread 0 Reads from variable whose address is 6295600  
+
+Event 253 : Thread 0 Reads from variable whose address is 6295608  
+
+Event 254 : Thread 0 Reads from variable whose address is 6295616  
+
+Event 255 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 256 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 257 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 258 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 259 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 260 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 261 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 262 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 263 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 264 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 265 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 266 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 267 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 268 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 269 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 270 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 271 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 272 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 273 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 274 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 275 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 276 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 277 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 278 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 279 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 280 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 281 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 282 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 283 : Thread 0 STARTS 
+
+Event 284 : Thread 0 Reads from variable whose address is 6295592  
+
+Event 285 : Thread 0 Reads from variable whose address is 6295560  
+
+Event 286 : Thread 0 Reads from variable whose address is 6295568  
+
+Event 287 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 288 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 289 : Thread 0 Reads from variable whose address is 6295344  
+
+Event 290 : Thread 0 Reads from variable whose address is 6295440  
+
+Event 291 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 292 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 293 : Thread 0 Reads from variable whose address is 6295544  
+
+Event 294 : Thread 0 Reads from variable whose address is 6295040  
+
+Event 295 : Thread 0 Reads from variable whose address is 6295056  
+
+Event 296 : Thread 0 Executes Main   
+
+Event 297 : Thread 0 Reads from variable whose address is 6295584  
+
+Event 298 : Thread 0 Reads from variable whose address is 6295560  
+
+Event 299 : Thread 0 Reads from variable whose address is 6295568  
+
+Event 300 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 301 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 302 : Thread 0 Reads from variable whose address is 6295344  
+
+Event 303 : Thread 0 Reads from variable whose address is 6295440  
+
+Event 304 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 305 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 306 : Thread 0 Reads from variable whose address is 6295576  
+
+Event 307 : Thread 0 Reads from variable whose address is 6295560  
+
+Event 308 : Thread 0 Reads from variable whose address is 6295568  
+
+Event 309 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 310 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 311 : Thread 0 Reads from variable whose address is 6295344  
+
+Event 312 : Thread 0 Reads from variable whose address is 6295440  
+
+Event 313 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 314 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 315 : Thread 0 CREATES Thread 1  
+
+Event 316 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 317 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 318 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 319 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 320 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 321 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 322 : Thread 0 Unlocks the mutex variable whose address is 140153882106120  
+
+Event 323 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 324 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 325 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 326 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 327 : Thread 1 STARTS 
+
+Event 328 : Thread 0 Reads from variable whose address is 6295600  
+
+Event 329 : Thread 0 Reads from variable whose address is 6295560  
+
+Event 330 : Thread 0 Reads from variable whose address is 6295568  
+
+Event 331 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 332 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 333 : Thread 0 Reads from variable whose address is 6295344  
+
+Event 334 : Thread 0 Reads from variable whose address is 6295440  
+
+Event 335 : Thread 1 Reads from variable whose address is 6295232  
+
+Event 336 : Thread 1 Reads from variable whose address is 6295216  
+
+Event 337 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 338 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 339 : Thread 0 JOINS   
+
+Event 340 : Thread 1 Reads from variable whose address is 6295232  
+
+Event 341 : Thread 1 Reads from variable whose address is 6295216  
+
+Event 342 : Thread 1 Reads from variable whose address is 6295616  
+
+Event 343 : Thread 1 Reads from variable whose address is 6295560  
+
+Event 344 : Thread 1 Reads from variable whose address is 6295568  
+
+Event 345 : Thread 1 Reads from variable whose address is 6295216  
+
+Event 346 : Thread 1 Reads from variable whose address is 6295232  
+
+Event 347 : Thread 1 Reads from variable whose address is 6295344  
+
+Event 348 : Thread 1 Reads from variable whose address is 6295440  
+
+Event 349 : Thread 1 Reads from variable whose address is 6295232  
+
+Event 350 : Thread 1 Reads from variable whose address is 6295216  
+
+Event 351 : Thread 1 Reads from variable whose address is 6295584  
+
+Event 352 : Thread 1 Reads from variable whose address is 6295232  
+
+Event 353 : Thread 1 Reads from variable whose address is 6295216  
+
+Event 354 : Thread 1 Reads from variable whose address is 6295232  
+
+Event 355 : Thread 1 Reads from variable whose address is 6295216  
+
+Event 356 : Thread 1 EXITS   
+
+Event 357 : Thread 0 Reads from variable whose address is 6295584  
+
+Event 358 : Thread 0 Reads from variable whose address is 6295608  
+
+Event 359 : Thread 0 Reads from variable whose address is 6295560  
+
+Event 360 : Thread 0 Reads from variable whose address is 6295568  
+
+Event 361 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 362 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 363 : Thread 0 Reads from variable whose address is 6295344  
+
+Event 364 : Thread 0 Reads from variable whose address is 6295440  
+
+Event 365 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 366 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 367 : Thread 0 EXITS NORMALLY   
+
+Event 368 : 
+Event 369 : Thread 0 Unlocks the mutex variable whose address is 140153882106120  
+
+Event 370 : Thread 0 Reads from variable whose address is 6295168  
+
+Event 371 : Thread 0 Reads from variable whose address is 6295184  
+
+Event 372 : Thread 0 Reads from variable whose address is 6295048  
+
+Event 373 : Thread 0 Reads from variable whose address is 6295628  
+
+Event 374 : Thread 0 Writes to variable whose address is 4195907  
+
+Event 375 : Thread 0 Reads from variable whose address is 6295120  
+
+Event 376 : Thread 0 Reads from variable whose address is 6295232  
+
+Event 377 : Thread 0 Reads from variable whose address is 6295216  
+
+Event 378 : Thread 0 Unregisters fork handlers   
+
+Event 379 : Thread 0 EXITS   
+
+

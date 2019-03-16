@@ -1,0 +1,28 @@
+The Start Thread is :0
+
+The Main Thread is :0
+
+The Create Sequence :
+
+ 1 : Thread 0 Creates Thread 1
+
+The Create Summary:
+
+Thread 0 creates 
+Thread 1
+
+The Exit Sequence:
+
+ 1 : Thread :0   JOINS
+
+ 2 : Thread :1   EXITS
+
+ 3 : Thread :0   EXITS
+
+
+there is a single parent
+
+there is join
+
+there is no update
+Boss_Worker

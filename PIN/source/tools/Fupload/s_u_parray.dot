@@ -1,0 +1,14 @@
+digraph G {
+"array char G_d" -> "559b92bbe140"
+"array char G_d" -> "559b92bbe141"
+"array char G_d" -> "559b92bbe142"
+"array char G_d" -> "559b92bbe143"
+"array char G_d" -> "559b92bbe144"
+"array char G_d" -> "559b92bbe145"
+"array char G_d" -> "559b92bbe146"
+R_1 [label = "main" shape = "box"]
+"int G_559b92bbe010" -> R_1 [color = "red"]
+R_1 -> "int G_559b92bbe010" [color = "blue"]
+R_1 -> "array char G_d" [color = "yellow"]
+"array char G_d" -> R_1 [color = "green"]
+}

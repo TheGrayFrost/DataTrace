@@ -1,0 +1,15 @@
+digraph test{
+   Decision1[shape = diamond fillcolor = "white" style = filled];
+   Decision2[shape = diamond fillcolor = "white" style = filled];
+   Decision3[shape = diamond fillcolor = "white" style = filled];
+   Start[fillcolor = "sienna" style = filled];
+   node1[fillcolor = "yellow" style = filled];
+   node2[fillcolor = "yellow" style = filled];
+   Start-> Decision1[color = "green" label = "Many Threads create child threads"];
+   node1-> Decision2[color = "green" label = "Each Thread updates global variables including parent threads"];
+   node2-> Decision3[color = "green" label = "Thread exits after task with joining"];
+   Decision1-> node1[color = "green" label = "NO"];
+   Decision2-> node2[color = "green" label = "NO"];
+   Boss_Worker[fillcolor = "turquoise" style = filled];
+   Decision3-> Boss_Worker[color = "green" label = "YES"];
+}

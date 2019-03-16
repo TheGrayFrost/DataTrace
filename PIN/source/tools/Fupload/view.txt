@@ -1,0 +1,69 @@
+
+ROUTINE: 55dcb55dacfa: main
+55dcb55dacfa: push rbp
+55dcb55dacfb: mov rbp, rsp
+55dcb55dacfe: sub rsp, 0x20
+55dcb55dad02: mov rax, qword ptr fs:[0x28]
+55dcb55dad0b: mov qword ptr [rbp-0x8], rax
+55dcb55dad0f: xor eax, eax
+55dcb55dad11: mov dword ptr [rbp-0x14], 0x0
+55dcb55dad18: mov rax, 0x68736568736976
+55dcb55dad22: mov qword ptr [rbp-0x10], rax
+55dcb55dad26: mov eax, dword ptr [rbp-0x14]
+Stack Read
+55dcb55dad29: cdqe 
+55dcb55dad2b: movzx eax, byte ptr [rbp+rax*1-0x10]
+Stack Read
+55dcb55dad30: test al, al
+55dcb55dad32: jz 0x55dcb55dad57
+Call main
+55dcb55dad34: mov eax, dword ptr [rbp-0x14]
+Stack Read
+55dcb55dad37: lea edx, ptr [rax+0x1]
+55dcb55dad3a: mov dword ptr [rbp-0x14], edx
+55dcb55dad3d: lea rdx, ptr [rbp-0x10]
+55dcb55dad41: cdqe 
+55dcb55dad43: add rax, rdx
+55dcb55dad46: mov rsi, rax
+55dcb55dad49: lea rdi, ptr [rip+0x2023f0]
+55dcb55dad50: call 0x55dcb55dae78
+Call _ZNSt6vectorIcSaIcEE9push_backERKc
+vectored call
+55dcb55dad55: jmp 0x55dcb55dad26
+55dcb55dad57: lea rdi, ptr [rip+0x2023e2]
+55dcb55dad5e: call 0x55dcb55daef4
+Call _ZNKSt6vectorIcSaIcEE5emptyEv
+55dcb55dad63: xor eax, 0x1
+55dcb55dad66: test al, al
+55dcb55dad68: jz 0x55dcb55dad98
+Call main
+55dcb55dad6a: lea rdi, ptr [rip+0x2023cf]
+55dcb55dad71: call 0x55dcb55daf58
+Call _ZNSt6vectorIcSaIcEE4backEv
+vectored call
+55dcb55dad76: movzx eax, byte ptr [rax]
+55dcb55dad79: movsx eax, al
+55dcb55dad7c: mov esi, eax
+55dcb55dad7e: lea rdi, ptr [rip+0x20229b]
+55dcb55dad85: call 0x55dcb55dab70
+Call _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c@plt
+55dcb55dad8a: lea rdi, ptr [rip+0x2023af]
+55dcb55dad91: call 0x55dcb55dafba
+Call _ZNSt6vectorIcSaIcEE8pop_backEv
+vectored call
+55dcb55dad96: jmp 0x55dcb55dad57
+55dcb55dad98: lea rsi, ptr [rip+0xf66]
+55dcb55dad9f: lea rdi, ptr [rip+0x20227a]
+55dcb55dada6: call 0x55dcb55dab40
+Call _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt
+55dcb55dadab: mov eax, 0x0
+55dcb55dadb0: mov rcx, qword ptr [rbp-0x8]
+Stack Read
+55dcb55dadb4: xor rcx, qword ptr fs:[0x28]
+55dcb55dadbd: jz 0x55dcb55dadc4
+Call main
+55dcb55dadbf: chsehsiv
+all 0x55dcb55dab60
+Call __stack_chk_fail@plt
+55dcb55dadc4: leave 
+55dcb55dadc5: ret 

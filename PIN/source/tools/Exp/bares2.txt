@@ -1,0 +1,34 @@
+
+Partial symtab for source file bares.c (object 0x15de340)
+
+  Read from object file /home/srijoni/Vishesh/PIN/source/tools/Exp/bares.out (0x15ceec0)
+  Full symtab was read (at 0x15f3370 by function at 0x63d9d0)
+  Relocate symbols by 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0
+  Symbols cover text addresses 0x40081d-0x400963
+  Address map supported - yes.
+  Depends on 0 other partial symtabs.
+  Global partial symbols:
+    `counter', static, 0x6010c8
+    `lock', static, 0x6010a0
+    `main', function, 0x400893
+    `tid', static, 0x6010d0
+    `trythis', function, 0x40081d
+  Static partial symbols:
+    `long unsigned int', type, 0x0
+    `unsigned char', type, 0x0
+    `short unsigned int', type, 0x0
+    `unsigned int', type, 0x0
+    `signed char', type, 0x0
+    `short int', type, 0x0
+    `int', type, 0x0
+    `long int', type, 0x0
+    `sizetype', type, 0x0
+    `char', type, 0x0
+    `pthread_t', type, 0x0
+    `__pthread_list_t', type, 0x0
+    `pthread_mutex_t', type, 0x0
+    `long long unsigned int', type, 0x0
+    `long long int', type, 0x0
+    `__pthread_internal_list', struct domain, type, 0x0
+    `__pthread_mutex_s', struct domain, type, 0x0
+

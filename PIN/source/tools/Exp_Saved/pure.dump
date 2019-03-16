@@ -1,0 +1,27 @@
+ba
+0x400765: main: 0: mov dword ptr [rbp-0x4], 0xffffffff - w
+RR: 1 rbp WR: 0 
+1 -> rbp-0x4:0x7ffdbefab71c L_1
+
+0x40076c: main: 0: mov dword ptr [rbp-0x8], 0x0 - w
+RR: 1 rbp WR: 0 
+1 -> rbp-0x8:0x7ffdbefab718 L_2
+
+0x400773: main: 0: mov word ptr [rbp-0x10], 0x6261 - w
+RR: 1 rbp WR: 0 
+1 -> rbp-0x10:0x7ffdbefab710 L_3
+
+0x400779: main: 0: mov byte ptr [rbp-0xe], 0x0 - w
+RR: 1 rbp WR: 0 
+1 -> rbp-0xe:0x7ffdbefab712 L_4
+
+0x400792: main: 0: mov byte ptr [rbp+rax*1-0x80], dl - w
+RR: 3 rbp rax dl WR: 0 
+1 -> rbp-0x80:0x7ffdbefab6a0 L_5
+1 -> rbp-0x4:0x7ffdbefab71c L_1
+
+0x400792: main: 0: mov byte ptr [rbp+rax*1-0x80], dl - w
+RR: 3 rbp rax dl WR: 0 
+1 -> rbp-0x80:0x7ffdbefab6a0 L_5
+1 -> rbp-0x4:0x7ffdbefab71c L_1
+

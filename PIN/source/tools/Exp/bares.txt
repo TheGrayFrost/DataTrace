@@ -1,0 +1,103 @@
+
+Symtab for file bares.c
+Compilation directory is /home/srijoni/Vishesh/PIN/source/tools/Exp
+Read from object file /home/srijoni/Vishesh/PIN/source/tools/Exp/bares.out (0x1408800)
+Language: c
+
+Line table:
+
+ line 12 at 0x40081d
+ line 13 at 0x400829
+ line 14 at 0x400840
+ line 16 at 0x40084a
+ line 17 at 0x400852
+ line 19 at 0x400861
+ line 21 at 0x40086b
+ line 23 at 0x400882
+ line 25 at 0x40088c
+ line 26 at 0x400891
+ line 29 at 0x400893
+ line 30 at 0x40089b
+ line 32 at 0x4008a2
+ line 34 at 0x4008ac
+ line 36 at 0x4008bf
+ line 37 at 0x4008c9
+ line 40 at 0x4008d3
+ line 42 at 0x4008d5
+ line 43 at 0x4008fe
+ line 44 at 0x400904
+ line 45 at 0x400920
+ line 40 at 0x400924
+ line 48 at 0x40092a
+ line 49 at 0x40093e
+ line 50 at 0x400952
+ line 52 at 0x40095c
+ line 53 at 0x400961
+ line 0 at 0x400963
+
+Blockvector:
+
+block #000, object at 0x142cbd8, 2 syms/buckets in 0x40081d..0x400963
+ void *trythis(void *); block object 0x142c5b0, 0x40081d..0x400893 section .text
+ long unsigned int tid[2]; static at 0x6010d0 section .bss
+ int main(); block object 0x142c830, 0x400893..0x400963 section .text
+ int counter; static at 0x6010c8 section .bss
+ union {
+     struct __pthread_mutex_s __data;
+     char __size[40];
+     long int __align;
+ } lock; static at 0x6010a0 section .bss
+  block #001, object at 0x142cb58 under 0x142cbd8, 4 syms/buckets in 0x40081d..0x400963
+   typedef struct __pthread_internal_list {
+       struct __pthread_internal_list *__prev;
+       struct __pthread_internal_list *__next;
+   } __pthread_list_t; 
+   typedef long unsigned int long unsigned int; 
+   typedef unsigned int unsigned int; 
+   struct __pthread_mutex_s {
+       int __lock;
+       unsigned int __count;
+       int __owner;
+       unsigned int __nusers;
+       int __kind;
+       short int __spins;
+       short int __elision;
+       __pthread_list_t __list;
+   };
+
+   typedef long long unsigned int long long unsigned int; 
+   typedef short unsigned int short unsigned int; 
+   typedef signed char signed char; 
+   typedef int int; 
+   typedef long int long int; 
+   typedef char char; 
+   typedef long unsigned int pthread_t; 
+   struct __pthread_internal_list {
+       struct __pthread_internal_list *__prev;
+       struct __pthread_internal_list *__next;
+   };
+
+   typedef union {
+       struct __pthread_mutex_s __data;
+       char __size[40];
+       long int __align;
+   } pthread_mutex_t; 
+   typedef long long int long long int; 
+   typedef unsigned char unsigned char; 
+   typedef short int short int; 
+   typedef sizetype sizetype; 
+    block #002, object at 0x142c5b0 under 0x142cb58, 2 syms/buckets in 0x40081d..0x400893, function trythis
+     void *arg; computed at runtime
+     long unsigned int i; computed at runtime
+    block #003, object at 0x142c830 under 0x142cb58, 2 syms/buckets in 0x400893..0x400963, function main
+     int i; computed at runtime
+     int error; computed at runtime
+
+
+Symtab for file /usr/include/bits/pthreadtypes.h
+Compilation directory is /home/srijoni/Vishesh/PIN/source/tools/Exp
+Read from object file /home/srijoni/Vishesh/PIN/source/tools/Exp/bares.out (0x1408800)
+Language: c
+
+Blockvector same as previous symtab
+

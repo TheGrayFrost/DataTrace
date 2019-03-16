@@ -1,0 +1,84 @@
+
+ROUTINE: 562ea24f7b2a: main
+562ea24f7b2a: push rbp R rbp, rsp, W rsp, 
+562ea24f7b2b: mov rbp, rsp R rsp, W rbp, 
+562ea24f7b2e: push rbx R rbx, rsp, W rsp, 
+562ea24f7b2f: sub rsp, 0x38 R rsp, W rsp, 
+
+562ea24f7b33: mov rax, qword ptr fs:[0x28] R W rax, 
+562ea24f7b3c: mov qword ptr [rbp-0x18], rax R rbp, rax, W 
+562ea24f7b40: xor eax, eax R eax, eax, W eax, 
+
+vector <int> A(3, 5);
+562ea24f7b42: lea rax, ptr [rbp-0x35] R rbp, W rax, 
+562ea24f7b46: mov rdi, rax R rax, W rdi, 
+562ea24f7b49: call 0x562ea24f7d4c R rsp, W rsp,  -> _ZNSaIiEC1Ev
+562ea24f7b4e: mov dword ptr [rbp-0x34], 0x3 R rbp, W 
+562ea24f7b55: lea rcx, ptr [rbp-0x35] R rbp, W rcx, 
+562ea24f7b59: lea rdx, ptr [rbp-0x34] R rbp, W rdx, 
+562ea24f7b5d: lea rax, ptr [rbp-0x30] R rbp, W rax, 
+562ea24f7b61: mov esi, 0x5 R W esi, 
+562ea24f7b66: mov rdi, rax R rax, W rdi, 
+562ea24f7b69: call 0x562ea24f7d84 R rsp, W rsp,  -> _ZNSt6vectorIiSaIiEEC2EmRKiRKS0_
+562ea24f7b6e: lea rax, ptr [rbp-0x35] R rbp, W rax, 
+562ea24f7b72: mov rdi, rax R rax, W rdi, 
+562ea24f7b75: call 0x562ea24f7d68 R rsp, W rsp,  -> _ZNSaIiED2Ev
+
+A[1] = 2;
+562ea24f7b7a: lea rax, ptr [rbp-0x30] R rbp, W rax, 
+562ea24f7b7e: mov esi, 0x1 R W esi, 
+562ea24f7b83: mov rdi, rax R rax, W rdi, 
+562ea24f7b86: call 0x562ea24f7e32 R rsp, W rsp,  -> _ZNSt6vectorIiSaIiEEixEm
+562ea24f7b8b: mov dword ptr [rax], 0x2 R rax, W 
+
+C[3] = 8
+562ea24f7b91: mov esi, 0x3 R W esi, 
+562ea24f7b96: lea rdi, ptr [rip+0x202493] R W rdi, 
+562ea24f7b9d: call 0x562ea24f7e32 R rsp, W rsp,  -> _ZNSt6vectorIiSaIiEEixEm
+562ea24f7ba2: mov dword ptr [rax], 0x8 R rax, W 
+
+C.front() = 3
+562ea24f7ba8: lea rdi, ptr [rip+0x202481] R W rdi, 
+562ea24f7baf: call 0x562ea24f7e52 R rsp, W rsp,  -> _ZNSt6vectorIiSaIiEE5frontEv
+562ea24f7bb4: mov dword ptr [rax], 0x3 R rax, W 
+
+C.push_back(5)
+562ea24f7bba: mov dword ptr [rbp-0x34], 0x5 R rbp, W 
+562ea24f7bc1: lea rax, ptr [rbp-0x34] R rbp, W rax, 
+562ea24f7bc5: mov rsi, rax R rax, W rsi, 
+562ea24f7bc8: lea rdi, ptr [rip+0x202461] R W rdi, 
+562ea24f7bcf: call 0x562ea24f7eae R rsp, W rsp,  -> _ZNSt6vectorIiSaIiEE9push_backEOi
+
+return 0
+562ea24f7bd4: mov ebx, 0x0 R W ebx, 
+
+A deallocate
+562ea24f7bd9: lea rax, ptr [rbp-0x30] R rbp, W rax, 
+562ea24f7bdd: mov rdi, rax R rax, W rdi, 
+562ea24f7be0: call 0x562ea24f7dee R rsp, W rsp,  -> _ZNSt6vectorIiSaIiEED2Ev
+562ea24f7be5: mov eax, ebx R ebx, W eax, 
+562ea24f7be7: mov rdx, qword ptr [rbp-0x18] R rbp, W rdx, 
+562ea24f7beb: xor rdx, qword ptr fs:[0x28] R rdx, W rdx, 
+562ea24f7bf4: jz 0x562ea24f7c31 R W  -> main
+562ea24f7bf6: jmp 0x562ea24f7c2c R W  -> main
+562ea24f7bf8: mov rbx, rax R rax, W rbx, 
+562ea24f7bfb: lea rax, ptr [rbp-0x35] R rbp, W rax, 
+562ea24f7bff: mov rdi, rax R rax, W rdi, 
+562ea24f7c02: call 0x562ea24f7d68 R rsp, W rsp,  -> _ZNSaIiED2Ev
+562ea24f7c07: mov rax, rbx R rbx, W rax, 
+562ea24f7c0a: mov rdi, rax R rax, W rdi, 
+562ea24f7c0d: call 0x562ea24f7a00 R rsp, W rsp,  -> _Unwind_Resume@plt
+562ea24f7c12: mov rbx, rax R rax, W rbx, 
+562ea24f7c15: lea rax, ptr [rbp-0x30] R rbp, W rax, 
+562ea24f7c19: mov rdi, rax R rax, W rdi, 
+562ea24f7c1c: call 0x562ea24f7dee R rsp, W rsp,  -> _ZNSt6vectorIiSaIiEED2Ev
+562ea24f7c21: mov rax, rbx R rbx, W rax, 
+562ea24f7c24: mov rdi, rax R rax, W rdi, 
+562ea24f7c27: call 0x562ea24f7a00 R rsp, W rsp,  -> _Unwind_Resume@plt
+562ea24f7c2c: call 0x562ea24f79b0 R rsp, W rsp,  -> __stack_chk_fail@plt
+
+
+562ea24f7c31: add rsp, 0x38 R rsp, W rsp, 
+562ea24f7c35: pop rbx R rsp, W rbx, rsp, 
+562ea24f7c36: pop rbp R rsp, W rbp, rsp, 
+562ea24f7c37: ret  R rsp, W rsp, 

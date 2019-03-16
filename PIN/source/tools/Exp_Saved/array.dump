@@ -1,0 +1,336 @@
+V8_1 8 W _GLOBAL__sub_I_STACK /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: push rbp
+V8_2 8 W _GLOBAL__sub_I_STACK /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: call 0x56263e36dbbe
+V8_3 8 W _Z41__static_initialization_and_destruction_0ii /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: push rbp
+V4_4 4 W _Z41__static_initialization_and_destruction_0ii /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: mov dword ptr [rbp-0x4], edi
+V4_5 4 W _Z41__static_initialization_and_destruction_0ii /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: mov dword ptr [rbp-0x8], esi
+V4_4 4 R _Z41__static_initialization_and_destruction_0ii /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: cmp dword ptr [rbp-0x4], 0x1
+V4_5 4 R _Z41__static_initialization_and_destruction_0ii /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: cmp dword ptr [rbp-0x8], 0xffff
+V8_6 8 W _Z41__static_initialization_and_destruction_0ii /usr/include/c++/7/iostream:74: call 0x56263e36d880
+V8_7 8 R _Z41__static_initialization_and_destruction_0ii /usr/include/c++/7/iostream:74: mov rax, qword ptr [rip+0x2013fc]
+V8_6 8 W _Z41__static_initialization_and_destruction_0ii /usr/include/c++/7/iostream:74: call 0x56263e36d830
+V8_3 8 R _Z41__static_initialization_and_destruction_0ii /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: leave 
+V8_2 8 R _Z41__static_initialization_and_destruction_0ii /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: ret 
+V8_1 8 R _GLOBAL__sub_I_STACK /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: pop rbp
+V8_8 8 R _GLOBAL__sub_I_STACK /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: ret 
+V8_9 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:72: push rbp
+V8_10 8 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:72: mov rax, qword ptr fs:[0x28]
+V8_11 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:72: mov qword ptr [rbp-0x8], rax
+V4_12 4 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:73: mov dword ptr [rbp-0x14], 0x0
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:74: call 0x56263e36d9aa
+V8_14 8 W _Z9initStackv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:11: push rbp
+V4_15 4 W _Z9initStackv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:12: mov dword ptr [rip+0x2017ec], 0xffffffff
+V8_14 8 R _Z9initStackv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:13: pop rbp
+V8_13 8 R _Z9initStackv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:13: ret 
+
+
+V8_16 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:75: mov qword ptr [rbp-0x10], rax
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: mov eax, dword ptr [rbp-0x14]
+V8_16 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: movzx eax, byte ptr [rbp+rax*1-0x10]
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov eax, dword ptr [rbp-0x14]
+V4_12 4 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov dword ptr [rbp-0x14], edx
+V8_16 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: movzx eax, byte ptr [rbp+rax*1-0x10]
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: call 0x56263e36d9f5
+V8_14 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: push rbp
+V1_17 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: mov byte ptr [rbp-0x4], al
+V8_1 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:34: call 0x56263e36d9d8
+V8_2 8 W _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:25: push rbp
+V4_15 4 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:26: mov eax, dword ptr [rip+0x2017c2]
+V8_2 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: pop rbp
+V8_1 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: ret 
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov eax, dword ptr [rip+0x20178e]
+V4_15 4 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov dword ptr [rip+0x201785], eax
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov eax, dword ptr [rip+0x20177f]
+V1_17 1 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: movzx ecx, byte ptr [rbp-0x4]
+V1_18 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov byte ptr [rdx+rax*1], cl
+V8_14 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: leave 
+V8_13 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: ret 
+
+
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: mov eax, dword ptr [rbp-0x14]
+V1_19 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: movzx eax, byte ptr [rbp+rax*1-0x10]
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov eax, dword ptr [rbp-0x14]
+V4_12 4 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov dword ptr [rbp-0x14], edx
+V1_19 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: movzx eax, byte ptr [rbp+rax*1-0x10]
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: call 0x56263e36d9f5
+V8_14 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: push rbp
+V1_17 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: mov byte ptr [rbp-0x4], al
+V8_1 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:34: call 0x56263e36d9d8
+V8_2 8 W _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:25: push rbp
+V4_15 4 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:26: mov eax, dword ptr [rip+0x2017c2]
+V8_2 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: pop rbp
+V8_1 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: ret 
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov eax, dword ptr [rip+0x20178e]
+V4_15 4 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov dword ptr [rip+0x201785],
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov eax, dword ptr [rip+0x20177f]
+V1_17 1 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: movzx ecx, byte ptr [rbp-0x4] //num
+V1_20 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov byte ptr [rdx+rax*1], cl //STACK[TOP]
+V8_14 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: leave 
+V8_13 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: ret 
+
+
+
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: mov eax, dword ptr [rbp-0x14]
+V1_21 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: movzx eax, byte ptr [rbp+rax*1-0x10]
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov eax, dword ptr [rbp-0x14]
+V4_12 4 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov dword ptr [rbp-0x14], edx
+V1_21 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: movzx eax, byte ptr [rbp+rax*1-0x10]
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: call 0x56263e36d9f5
+V8_14 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: push rbp
+V1_17 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: mov byte ptr [rbp-0x4], al
+V8_1 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:34: call 0x56263e36d9d8
+V8_2 8 W _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:25: push rbp
+V4_15 4 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:26: mov eax, dword ptr [rip+0x2017c2]
+V8_2 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: pop rbp
+V8_1 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: ret 
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov eax, dword ptr [rip+0x20178e]
+V4_15 4 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov dword ptr [rip+0x201785], eax
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov eax, dword ptr [rip+0x20177f]
+V1_17 1 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: movzx ecx, byte ptr [rbp-0x4]
+V1_22 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov byte ptr [rdx+rax*1], cl
+V8_14 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: leave 
+V8_13 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: ret 
+
+
+
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: mov eax, dword ptr [rbp-0x14]
+V1_23 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: movzx eax, byte ptr [rbp+rax*1-0x10]
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov eax, dword ptr [rbp-0x14]
+V4_12 4 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov dword ptr [rbp-0x14], edx
+V1_23 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: movzx eax, byte ptr [rbp+rax*1-0x10]
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: call 0x56263e36d9f5
+V8_14 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: push rbp
+V1_17 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: mov byte ptr [rbp-0x4], al
+V8_1 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:34: call 0x56263e36d9d8
+V8_2 8 W _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:25: push rbp
+V4_15 4 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:26: mov eax, dword ptr [rip+0x2017c2]
+V8_2 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: pop rbp
+V8_1 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: ret 
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov eax, dword ptr [rip+0x20178e]
+V4_15 4 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov dword ptr [rip+0x201785], eax
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov eax, dword ptr [rip+0x20177f]
+V1_17 1 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: movzx ecx, byte ptr [rbp-0x4]
+V1_24 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov byte ptr [rdx+rax*1], cl
+V8_14 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: leave 
+V8_13 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: ret 
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: mov eax, dword ptr [rbp-0x14]
+V1_25 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: movzx eax, byte ptr [rbp+rax*1-0x10]
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov eax, dword ptr [rbp-0x14]
+V4_12 4 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov dword ptr [rbp-0x14], edx
+V1_25 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: movzx eax, byte ptr [rbp+rax*1-0x10]
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: call 0x56263e36d9f5
+V8_14 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: push rbp
+V1_17 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: mov byte ptr [rbp-0x4], al
+V8_1 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:34: call 0x56263e36d9d8
+V8_2 8 W _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:25: push rbp
+V4_15 4 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:26: mov eax, dword ptr [rip+0x2017c2]
+V8_2 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: pop rbp
+V8_1 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: ret 
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov eax, dword ptr [rip+0x20178e]
+V4_15 4 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov dword ptr [rip+0x201785], eax
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov eax, dword ptr [rip+0x20177f]
+V1_17 1 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: movzx ecx, byte ptr [rbp-0x4]
+V1_26 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov byte ptr [rdx+rax*1], cl
+V8_14 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: leave 
+V8_13 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: ret 
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: mov eax, dword ptr [rbp-0x14]
+V1_27 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: movzx eax, byte ptr [rbp+rax*1-0x10]
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov eax, dword ptr [rbp-0x14]
+V4_12 4 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov dword ptr [rbp-0x14], edx
+V1_27 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: movzx eax, byte ptr [rbp+rax*1-0x10]
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: call 0x56263e36d9f5
+V8_14 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: push rbp
+V1_17 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: mov byte ptr [rbp-0x4], al
+V8_1 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:34: call 0x56263e36d9d8
+V8_2 8 W _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:25: push rbp
+V4_15 4 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:26: mov eax, dword ptr [rip+0x2017c2]
+V8_2 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: pop rbp
+V8_1 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: ret 
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov eax, dword ptr [rip+0x20178e]
+V4_15 4 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov dword ptr [rip+0x201785], eax
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov eax, dword ptr [rip+0x20177f]
+V1_17 1 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: movzx ecx, byte ptr [rbp-0x4]
+V1_28 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov byte ptr [rdx+rax*1], cl
+V8_14 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: leave 
+V8_13 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: ret 
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: mov eax, dword ptr [rbp-0x14]
+V1_29 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: movzx eax, byte ptr [rbp+rax*1-0x10]
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov eax, dword ptr [rbp-0x14]
+V4_12 4 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: mov dword ptr [rbp-0x14], edx
+V1_29 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: movzx eax, byte ptr [rbp+rax*1-0x10]
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:77: call 0x56263e36d9f5
+V8_14 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: push rbp
+V1_17 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:33: mov byte ptr [rbp-0x4], al
+V8_1 8 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:34: call 0x56263e36d9d8
+V8_2 8 W _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:25: push rbp
+V4_15 4 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:26: mov eax, dword ptr [rip+0x2017c2]
+V8_2 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: pop rbp
+V8_1 8 R _Z6isFullv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:30: ret 
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov eax, dword ptr [rip+0x20178e]
+V4_15 4 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:39: mov dword ptr [rip+0x201785], eax
+V4_15 4 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov eax, dword ptr [rip+0x20177f]
+V1_17 1 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: movzx ecx, byte ptr [rbp-0x4]
+V1_30 1 W _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:40: mov byte ptr [rdx+rax*1], cl
+V8_14 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: leave 
+V8_13 8 R _Z4pushc /media/sf_PIN/source/tools/exp/stack_using_array.cpp:42: ret 
+V4_12 4 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: mov eax, dword ptr [rbp-0x14]
+V1_31 1 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:76: movzx eax, byte ptr [rbp+rax*1-0x10]
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:78: call 0x56263e36d9bb
+V8_14 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_14 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_13 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:79: call 0x56263e36da3b
+V8_14 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:45: push rbp
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:47: call 0x56263e36d9bb
+V8_3 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_3 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_2 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov eax, dword ptr [rip+0x201752]
+V1_30 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: movzx eax, byte ptr [rdx+rax*1]
+V1_32 1 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov byte ptr [rbp-0x1], al
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov eax, dword ptr [rip+0x20173b]
+V4_15 4 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov dword ptr [rip+0x201732], eax
+V1_32 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: movsx eax, byte ptr [rbp-0x1]
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: call 0x56263e36d870
+V8_14 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: leave 
+V8_13 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:78: call 0x56263e36d9bb
+V8_14 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_14 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_13 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:79: call 0x56263e36da3b
+V8_14 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:45: push rbp
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:47: call 0x56263e36d9bb
+V8_3 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_3 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_2 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov eax, dword ptr [rip+0x201752]
+V1_28 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: movzx eax, byte ptr [rdx+rax*1]
+V1_32 1 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov byte ptr [rbp-0x1], al
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov eax, dword ptr [rip+0x20173b]
+V4_15 4 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov dword ptr [rip+0x201732], eax
+V1_32 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: movsx eax, byte ptr [rbp-0x1]
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: call 0x56263e36d870
+V8_14 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: leave 
+V8_13 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:78: call 0x56263e36d9bb
+V8_14 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_14 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_13 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:79: call 0x56263e36da3b
+V8_14 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:45: push rbp
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:47: call 0x56263e36d9bb
+V8_3 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_3 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_2 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov eax, dword ptr [rip+0x201752]
+V1_26 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: movzx eax, byte ptr [rdx+rax*1]
+V1_32 1 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov byte ptr [rbp-0x1], al
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov eax, dword ptr [rip+0x20173b]
+V4_15 4 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov dword ptr [rip+0x201732], eax
+V1_32 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: movsx eax, byte ptr [rbp-0x1]
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: call 0x56263e36d870
+V8_14 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: leave 
+V8_13 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:78: call 0x56263e36d9bb
+V8_14 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_14 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_13 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:79: call 0x56263e36da3b
+V8_14 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:45: push rbp
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:47: call 0x56263e36d9bb
+V8_3 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_3 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_2 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov eax, dword ptr [rip+0x201752]
+V1_24 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: movzx eax, byte ptr [rdx+rax*1]
+V1_32 1 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov byte ptr [rbp-0x1], al
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov eax, dword ptr [rip+0x20173b]
+V4_15 4 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov dword ptr [rip+0x201732], eax
+V1_32 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: movsx eax, byte ptr [rbp-0x1]
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: call 0x56263e36d870
+V8_14 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: leave 
+V8_13 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:78: call 0x56263e36d9bb
+V8_14 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_14 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_13 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:79: call 0x56263e36da3b
+V8_14 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:45: push rbp
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:47: call 0x56263e36d9bb
+V8_3 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_3 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_2 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov eax, dword ptr [rip+0x201752]
+V1_22 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: movzx eax, byte ptr [rdx+rax*1]
+V1_32 1 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov byte ptr [rbp-0x1], al
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov eax, dword ptr [rip+0x20173b]
+V4_15 4 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov dword ptr [rip+0x201732], eax
+V1_32 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: movsx eax, byte ptr [rbp-0x1]
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: call 0x56263e36d870
+V8_14 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: leave 
+V8_13 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:78: call 0x56263e36d9bb
+V8_14 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_14 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_13 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:79: call 0x56263e36da3b
+V8_14 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:45: push rbp
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:47: call 0x56263e36d9bb
+V8_3 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_3 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_2 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov eax, dword ptr [rip+0x201752]
+V1_20 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: movzx eax, byte ptr [rdx+rax*1]
+V1_32 1 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov byte ptr [rbp-0x1], al
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov eax, dword ptr [rip+0x20173b]
+V4_15 4 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov dword ptr [rip+0x201732], eax
+V1_32 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: movsx eax, byte ptr [rbp-0x1]
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: call 0x56263e36d870
+V8_14 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: leave 
+V8_13 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:78: call 0x56263e36d9bb
+V8_14 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_14 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_13 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:79: call 0x56263e36da3b
+V8_14 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:45: push rbp
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:47: call 0x56263e36d9bb
+V8_3 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_3 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_2 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov eax, dword ptr [rip+0x201752]
+V1_18 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: movzx eax, byte ptr [rdx+rax*1]
+V1_32 1 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:52: mov byte ptr [rbp-0x1], al
+V4_15 4 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov eax, dword ptr [rip+0x20173b]
+V4_15 4 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:53: mov dword ptr [rip+0x201732], eax
+V1_32 1 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: movsx eax, byte ptr [rbp-0x1]
+V8_2 8 W _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:54: call 0x56263e36d870
+V8_14 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: leave 
+V8_13 8 R _Z3popv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:55: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:78: call 0x56263e36d9bb
+hsehsiv
+V8_14 8 W _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:16: push rbp
+V4_15 4 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:17: mov eax, dword ptr [rip+0x2017df]
+V8_14 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: pop rbp
+V8_13 8 R _Z7isEmptyv /media/sf_PIN/source/tools/exp/stack_using_array.cpp:21: ret 
+V8_13 8 W main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:80: call 0x56263e36d840
+V8_11 8 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: mov rcx, qword ptr [rbp-0x8]
+V8_10 8 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: xor rcx, qword ptr fs:[0x28]
+V8_9 8 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: leave 
+V8_33 8 R main /media/sf_PIN/source/tools/exp/stack_using_array.cpp:82: ret 
+
+DONE

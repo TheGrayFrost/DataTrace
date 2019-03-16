@@ -1,0 +1,122 @@
+0x4006ed: main: 0: push rbp - n
+RR: 2 rbp rsp WR: 1 rsp 
+
+0x4006ee: main: 0: mov rbp, rsp - n
+RR: 1 rsp WR: 1 rbp 
+
+0x4006f1: main: 0: sub rsp, 0xfc0 - n
+RR: 1 rsp WR: 2 rsp rflags 
+
+0x4006f8: main: 0: mov dword ptr [rbp-0x4], 0x0 - w
+RR: 1 rbp WR: 0 
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x4006ff: main: 0: jmp 0x400761 - n
+RR: 1 rip WR: 1 rip 
+
+0x400761: main: 0: cmp dword ptr [rbp-0x4], 0x0 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x400765: main: 0: jle 0x400701 - n
+RR: 2 rip rflags WR: 1 rip 
+
+0x400701: main: 0: mov eax, dword ptr [rbp-0x4] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x400704: main: 0: cdqe  - n
+RR: 1 eax WR: 1 rax 
+
+0x400706: main: 0: mov edx, dword ptr [rbp-0x4] - r
+RR: 1 rbp WR: 1 edx 
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x400709: main: 0: mov dword ptr [rax*4+0x601174], edx - w
+RR: 2 rax edx WR: 0 
+1 -> rax*4+0x601174:0x601174 L_2
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x400710: main: 0: mov eax, dword ptr [rbp-0x4] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x400713: main: 0: lea edx, ptr [rax+rax*1] - n
+RR: 2 rax rax WR: 1 edx 
+
+0x400716: main: 0: mov eax, dword ptr [rbp-0x4] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x400719: main: 0: cdqe  - n
+RR: 1 eax WR: 1 rax 
+
+0x40071b: main: 0: mov dword ptr [rbp+rax*4-0x20], edx - w
+RR: 3 rbp rax edx WR: 0 
+1 -> rbp-0x20:0x7fffcf18add0 L_3
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x40071f: main: 0: mov eax, dword ptr [rbp-0x4] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x400722: main: 0: mov dword ptr [rip+0x200a4c], eax - w
+RR: 2 rip eax WR: 0 
+1 -> rip+0x200a4c:0x601174 G_1
+
+0x400728: main: 0: cmp dword ptr [rbp-0x4], 0x0 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x40072c: main: 0: jnz 0x400756 - n
+RR: 2 rip rflags WR: 1 rip 
+
+0x40072e: main: 0: mov dword ptr [rbp-0x8], 0x5 - w
+RR: 1 rbp WR: 0 
+1 -> rbp-0x8:0x7fffcf18ade8 L_4
+
+0x400735: main: 0: mov eax, dword ptr [rbp-0x8] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x8:0x7fffcf18ade8 L_4
+
+0x400738: main: 0: cdqe  - n
+RR: 1 eahere
+x WR: 1 rax 
+
+0x40073a: main: 0: mov dword ptr [rbp+rax*4-0xfc0], 0x9 - w
+RR: 2 rbp rax WR: 0 
+1 -> rbp-0xfc0:0x7fffcf189e44 L_5
+1 -> rbp-0x8:0x7fffcf18ade8 L_4
+
+0x400745: main: 0: mov esi, 0x400850 - n
+RR: 0 WR: 1 esi 
+
+0x40074a: main: 0: mov edi, 0x601060 - n
+RR: 0 WR: 1 edi 
+
+0x40074f: main: 0: call 0x4005e0 - n
+RR: 2 rip rsp WR: 2 rip rsp 
+
+0x400754: main: 0: jmp 0x40075d - n
+RR: 1 rip WR: 1 rip 
+
+0x40075d: main: 0: add dword ptr [rbp-0x4], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x400761: main: 0: cmp dword ptr [rbp-0x4], 0x0 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x4:0x7fffcf18adec L_1
+
+0x400765: main: 0: jle 0x400701 - n
+RR: 2 rip rflags WR: 1 rip 
+
+0x400767: main: 0: mov eax, 0x0 - n
+RR: 0 WR: 1 eax 
+
+0x40076c: main: 0: leave  - n
+RR: 3 rbp rbp rsp WR: 2 rbp rsp 
+
+0x40076d: main: 0: ret  - n
+RR: 1 rsp WR: 2 rip rsp 
+

@@ -1,0 +1,28 @@
+digraph G {
+"array char G_d" -> "55b20e7ce140"
+"array char G_d" -> "55b20e7ce141"
+"array char G_d" -> "55b20e7ce142"
+"array char G_d" -> "55b20e7ce143"
+"array char G_d" -> "55b20e7ce144"
+"array char G_d" -> "55b20e7ce145"
+"array char G_d" -> "55b20e7ce146"
+R_1 [label = "_Z3popv" shape = "box"]
+"int G_55b20e7ce1a4" -> R_1 [color = "red"]
+"array char G_d" -> R_1 [color = "green"]
+R_1 -> "int G_55b20e7ce1a4" [color = "blue"]
+R_2 [label = "_Z4pushc" shape = "box"]
+"int G_55b20e7ce1a4" -> R_2 [color = "red"]
+R_2 -> "int G_55b20e7ce1a4" [color = "blue"]
+R_2 -> "array char G_d" [color = "yellow"]
+R_3 [label = "_Z6isFullv" shape = "box"]
+"int G_55b20e7ce1a4" -> R_3 [color = "red"]
+R_4 [label = "_Z7displayv" shape = "box"]
+"pointer G_0" -> R_4 [color = "red"]
+"int G_0" -> R_4 [color = "red"]
+"array char G_d" -> R_4 [color = "green"]
+R_5 [label = "_Z7isEmptyv" shape = "box"]
+"int G_55b20e7ce1a4" -> R_5 [color = "red"]
+R_6 [label = "_Z9initStackv" shape = "box"]
+R_6 -> "int G_55b20e7ce1a4" [color = "blue"]
+R_7 [label = "main" shape = "box"]
+}

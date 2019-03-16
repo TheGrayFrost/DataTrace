@@ -1,0 +1,8 @@
+ The Sequence of Data Access of all the global variables in the system 
+
+1 : Global Variable 4195907accessed by thread 0without synchronisation
+
+
+ The waiting time of each thread to acquire a mutex 
+
+

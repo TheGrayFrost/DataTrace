@@ -1,0 +1,34 @@
+ Thread Summary 
+
+ The Sequence of Global Variable Access per thread is given below 
+
+ Thread 0
+1 : Accesses local Variable 4195907  
+ Thread 1
+
+
+Thread Statistics
+
+
+ Thread   0
+
+ OS Thread id 69217
+ The Routines are(apart from read or write) STARTS  MAIN  CREATES  UNLOCKS THE MUTEX  JOINS  EXITS NORMALLY  UNLOCKS THE MUTEX  UNREGISTERS FORK HANLERS
+ This thread was created by  thread 0
+ The number of Memory Reads by this thread are  349
+ The number of Memory Writes by this thread are  1
+ The number of child threads created by this thread are  1
+
+
+
+ Thread   1
+
+ OS Thread id 69221
+ The Routines are(apart from read or write)   STARTS
+ This thread was created by  thread 69217
+ The number of Memory Reads by this thread are  18
+ The number of Memory Writes by this thread are  0
+ The number of child threads created by this thread are  0
+
+
+

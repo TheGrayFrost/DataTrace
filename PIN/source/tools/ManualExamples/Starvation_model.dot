@@ -1,0 +1,7 @@
+digraph test{
+   Decision1[shape = diamond fillcolor = "white" style = filled];
+   Start[fillcolor = "sienna" style = filled];
+   Start-> Decision1[color = "green" label = "Threads acquire mutex after more than 5trials"];
+   No_Starvation[fillcolor = "turquoise" style = filled];
+   Decision1-> No_Starvation[color = "green" label = "NO"];
+}

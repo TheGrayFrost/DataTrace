@@ -1,0 +1,54 @@
+ROUTINE: 563b311bd7aa: main
+0x563b311bd7aa: push rbp
+0x563b311bd7ab: mov rbp, rsp
+0x563b311bd7ae: sub rsp, 0x20
+
+
+0x563b311bd7b2: mov rax, qword ptr fs:[0x28]
+0x563b311bd7bb: mov qword ptr [rbp-0x8], rax
+0x563b311bd7bf: xor eax, eax
+
+//i = 0; i < 2
+0x563b311bd7c1: mov dword ptr [rbp-0x18], 0x0
+0x563b311bd7c8: cmp dword ptr [rbp-0x18], 0x2
+0x563b311bd7cc: jnle 0x563b311bd806
+
+
+//a[i]
+0x563b311bd7ce: mov eax, dword ptr [rbp-0x18]
+0x563b311bd7d1: cdqe 
+//rcx = index * 4
+0x563b311bd7d3: lea rcx, ptr [rax*4]
+//rax = global array base pointer
+0x563b311bd7db: lea rax, ptr [rip+0x200836]
+
+0x563b311bd7e2: mov edx, dword ptr [rbp-0x18]
+0x563b311bd7e5: mov dword ptr [rcx+rax*1], edx
+
+//rdx = 2*i
+0x563b311bd7e8: mov eax, dword ptr [rbp-0x18]
+0x563b311bd7eb: lea edx, ptr [rax+rax*1]
+//rax = index
+0x563b311bd7ee: mov eax, dword ptr [rbp-0x18]
+0x563b311bd7f1: cdqe 
+//local b[i] accessed directly
+0x563b311bd7f3: mov dword ptr [rbp+rax*4-0x14], edx
+
+//global a[0] accessed directly
+0x563b311bd7f7: mov eax, dword ptr [rbp-0x18]
+0x563b311bd7fa: mov dword ptr [rip+0x200818], eax
+
+//++i
+0x563b311bd800: add dword ptr [rbp-0x18], 0x1
+
+0x563b311bd804: jmp 0x563b311bd7c8
+0x563b311bd806: mov eax, 0x0
+0x563b311bd80b: mov rsi, qword ptr [rbp-0x8]
+0x563b311bd80f: xor rsi, qword ptr fs:[0x28]
+0x563b311bd818: jz 0x563b311bd81f
+0x563b311bd81a: call 0x563b311bd670
+0x563b311bd81f: leave 
+0x563b311bd820: ret 
+
+
+DONE

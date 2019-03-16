@@ -1,0 +1,196 @@
+0x56325a99973a: main: push rbp - n
+RR: 2 rbp rsp WR: 1 rsp 
+
+0x56325a99973b: main: mov rbp, rsp - n
+RR: 1 rsp WR: 1 rbp 
+
+0x56325a99973e: main: mov dword ptr [rbp-0x8], 0x0 - w
+RR: 1 rbp WR: 0 
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a999745: main: cmp dword ptr [rbp-0x8], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a999749: main: jnle 0x56325a99976b - n
+RR: 2 rip rflags WR: 1 rip 
+
+0x56325a99974b: main: mov eax, dword ptr [rbp-0x8] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a99974e: main: cdqe  - n
+RR: 1 eax WR: 1 rax 
+
+0x56325a999750: main: lea rcx, ptr [rax*4] - n
+RR: 1 rax WR: 1 rcx 
+
+0x56325a999758: main: lea rax, ptr [rip+0x2008b9] - i
+RR: 1 rip WR: 1 rax 
+1 -> rip+0x2008b9:0x56325ab9a018 G_1
+
+0x56325a99975f: main: mov edx, dword ptr [rbp-0x8] - r
+RR: 1 rbp WR: 1 edx 
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a999762: main: mov dword ptr [rcx+rax*1], edx - w
+RR: 3 rcx rax edx WR: 0 
+1 -> rcx+rax*1:0x56325ab9a018 G_1
+1 -> rip+0x2008b9:0x56325ab9a018 G_1
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a999765: main: add dword ptr [rbp-0x8], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a999769: main: jmp 0x56325a999745 - n
+RR: 1 rip WR: 1 rip 
+
+0x56325a999745: main: cmp dword ptr [rbp-0x8], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a999749: main: jnle 0x56325a99976b - n
+RR: 2 rip rflags WR: 1 rip 
+
+0x56325a99974b: main: mov eax, dword ptr [rbp-0x8] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a99974e: main: cdqe  - n
+RR: 1 eax WR: 1 rax 
+
+0x56325a999750: main: lea rcx, ptr [rax*4] - n
+RR: 1 rax WR: 1 rcx 
+
+0x56325a999758: main: lea rax, ptr [rip+0x2008b9] - i
+RR: 1 rip WR: 1 rax 
+1 -> rip+0x2008b9:0x56325ab9a018 G_1
+
+0x56325a99975f: main: mov edx, dword ptr [rbp-0x8] - r
+RR: 1 rbp WR: 1 edx 
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a999762: main: mov dword ptr [rcx+rax*1], edx - w
+RR: 3 rcx rax edx WR: 0 
+1 -> rcx+rax*1:0x56325ab9a01c G_2
+1 -> rip+0x2008b9:0x56325ab9a018 G_1
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a999765: main: add dword ptr [rbp-0x8], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x8:0x7ffdada58388 L_1
+
+0x56325a999769: main: jmp 0x56325a999745 - n
+RR: 1 rip WR: 1 rip 
+
+0x56325a999745: main: cmp dword ptr [rbp-0x8], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x8:0x7ffdada58388 L_1
+1 -> rbp-0x8:0x7ffdada58388 
+
+0x56325a999749: main: jnle 0x56325a99976b - n
+RR: 2 rip rflags WR: 1 rip 
+
+0x56325a99976b: main: mov dword ptr [rbp-0x4], 0x0 - w
+RR: 1 rbp WR: 0 
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a999772: main: cmp dword ptr [rbp-0x4], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a999776: main: jnle 0x56325a99979b - n
+RR: 2 rip rflags WR: 1 rip 
+
+0x56325a999778: main: mov eax, dword ptr [rbp-0x4] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a99977b: main: lea ecx, ptr [rax+rax*1] - n
+RR: 2 rax rax WR: 1 ecx 
+
+0x56325a99977e: main: mov eax, dword ptr [rbp-0x4] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a999781: main: cdqe  - n
+RR: 1 eax WR: 1 rax 
+
+0x56325a999783: main: lea rdx, ptr [rax*4] - n
+RR: 1 rax WR: 1 rdx 
+
+0x56325a99978b: main: lea rax, ptr [rip+0x20088e] - i
+RR: 1 rip WR: 1 rax 
+1 -> rip+0x20088e:0x56325ab9a020 G_3
+
+0x56325a999792: main: mov dword ptr [rdx+rax*1], ecx - w
+RR: 3 rdx rax ecx WR: 0 
+1 -> rdx+rax*1:0x56325ab9a020 G_3
+1 -> rip+0x20088e:0x56325ab9a020 G_3
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a999795: main: add dword ptr [rbp-0x4], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a999799: main: jmp 0x56325a999772 - n
+RR: 1 rip WR: 1 rip 
+
+0x56325a999772: main: cmp dword ptr [rbp-0x4], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a999776: main: jnle 0x56325a99979b - n
+RR: 2 rip rflags WR: 1 rip 
+
+0x56325a999778: main: mov eax, dword ptr [rbp-0x4] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a99977b: main: lea ecx, ptr [rax+rax*1] - n
+RR: 2 rax rax WR: 1 ecx 
+
+0x56325a99977e: main: mov eax, dword ptr [rbp-0x4] - r
+RR: 1 rbp WR: 1 eax 
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a999781: main: cdqe  - n
+RR: 1 eax WR: 1 rax 
+
+0x56325a999783: main: lea rdx, ptr [rax*4] - n
+RR: 1 rax WR: 1 rdx 
+
+0x56325a99978b: main: lea rax, ptr [rip+0x20088e] - i
+RR: 1 rip WR: 1 rax 
+1 -> rip+0x20088e:0x56325ab9a020 G_3
+
+0x56325a999792: main: mov dword ptr [rdx+rax*1], ecx - w
+RR: 3 rdx rax ecx WR: 0 
+1 -> rdx+rax*1:0x56325ab9a024 G_4
+1 -> rip+0x20088e:0x56325ab9a020 G_3
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a999795: main: add dword ptr [rbp-0x4], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a999799: main: jmp 0x56325a999772 - n
+RR: 1 rip WR: 1 rip 
+
+0x56325a999772: main: cmp dword ptr [rbp-0x4], 0x1 - r
+RR: 1 rbp WR: 1 rflags 
+1 -> rbp-0x4:0x7ffdada5838c L_2
+
+0x56325a999776: main: jnle 0x56325a99979b - n
+RR: 2 rip rflags WR: 1 rip 
+
+0x56325a99979b: main: mov eax, 0x0 - n
+RR: 0 WR: 1 eax 
+
+0x56325a9997a0: main: pop rbp - n
+RR: 1 rsp WR: 2 rbp rsp 
+
+0x56325a9997a1: main: ret  - n
+RR: 1 rsp WR: 2 rip rsp 
+
