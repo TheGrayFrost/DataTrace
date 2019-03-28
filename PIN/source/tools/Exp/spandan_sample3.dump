@@ -1,0 +1,257 @@
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 7
+FUNCTION: main
+INS: 0x400501: push rbp - n 
+RR: 2 rbp rsp 
+WR: 1 rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 7
+FUNCTION: main
+INS: 0x400502: mov rbp, rsp - n 
+RR: 1 rsp 
+WR: 1 rbp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 7
+FUNCTION: main
+INS: 0x400505: sub rsp, 0x20 - n 
+RR: 1 rsp 
+WR: 2 rsp rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 8
+FUNCTION: main
+INS: 0x400509: mov dword ptr [rbp-0x1c], 0x4 - w 0x7ffd6ce12a94
+RR: 1 rbp 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 9
+FUNCTION: main
+INS: 0x400510: mov dword ptr [rbp-0x20], 0x5 - w 0x7ffd6ce12a90
+RR: 1 rbp 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 10
+FUNCTION: main
+INS: 0x400517: mov edx, dword ptr [rbp-0x20] - r 0x7ffd6ce12a90
+RR: 1 rbp 
+WR: 1 edx 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 10
+FUNCTION: main
+INS: 0x40051a: mov eax, dword ptr [rbp-0x1c] - r 0x7ffd6ce12a94
+RR: 1 rbp 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 10
+FUNCTION: main
+INS: 0x40051d: mov esi, edx - n 
+RR: 1 edx 
+WR: 1 esi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 10
+FUNCTION: main
+INS: 0x40051f: mov edi, eax - n 
+RR: 1 eax 
+WR: 1 edi 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 10
+FUNCTION: main
+INS: 0x400521: call 0x4004dd - n 
+TARGET: sample_func
+RR: 2 rip rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 1
+FUNCTION: sample_func
+INS: 0x4004dd: push rbp - n 
+RR: 2 rbp rsp 
+WR: 1 rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 1
+FUNCTION: sample_func
+INS: 0x4004de: mov rbp, rsp - n 
+RR: 1 rsp 
+WR: 1 rbp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 1
+FUNCTION: sample_func
+INS: 0x4004e1: mov dword ptr [rbp-0x14], edi - w 0x7ffd6ce12a6c
+RR: 2 rbp edi 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 1
+FUNCTION: sample_func
+INS: 0x4004e4: mov dword ptr [rbp-0x18], esi - w 0x7ffd6ce12a68
+RR: 2 rbp esi 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 2
+FUNCTION: sample_func
+INS: 0x4004e7: mov eax, dword ptr [rbp-0x14] - r 0x7ffd6ce12a6c
+RR: 1 rbp 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 2
+FUNCTION: sample_func
+INS: 0x4004ea: imul eax, dword ptr [rbp-0x14] - r 0x7ffd6ce12a6c
+RR: 2 eax rbp 
+WR: 2 eax rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 2
+FUNCTION: sample_func
+INS: 0x4004ee: mov edx, dword ptr [rbp-0x18] - r 0x7ffd6ce12a68
+RR: 1 rbp 
+WR: 1 edx 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 2
+FUNCTION: sample_func
+INS: 0x4004f1: add edx, edx - n 
+RR: 2 edx edx 
+WR: 2 edx rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 2
+FUNCTION: sample_func
+INS: 0x4004f3: add eax, edx - n 
+RR: 2 eax edx 
+WR: 2 eax rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 2
+FUNCTION: sample_func
+INS: 0x4004f5: mov dword ptr [rbp-0x4], eax - w 0x7ffd6ce12a7c
+RR: 2 rbp eax 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 3
+FUNCTION: sample_func
+INS: 0x4004f8: sub dword ptr [rbp-0x4], 0x5 - r 0x7ffd6ce12a7c
+RR: 1 rbp 
+WR: 1 rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 4
+FUNCTION: sample_func
+INS: 0x4004fc: mov eax, dword ptr [rbp-0x4] - r 0x7ffd6ce12a7c
+RR: 1 rbp 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 5
+FUNCTION: sample_func
+INS: 0x4004ff: pop rbp - n 
+RR: 1 rsp 
+WR: 2 rbp rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 5
+FUNCTION: sample_func
+INS: 0x400500: ret  - n 
+RR: 1 rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 10
+FUNCTION: main
+INS: 0x400526: mov dword ptr [rbp-0x4], eax - w 0x7ffd6ce12aac
+RR: 2 rbp eax 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 11
+FUNCTION: main
+INS: 0x400529: lea rax, ptr [rbp-0x1c] - n 
+RR: 1 rbp 
+WR: 1 rax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 11
+FUNCTION: main
+INS: 0x40052d: mov qword ptr [rbp-0x10], rax - w 0x7ffd6ce12aa0
+RR: 2 rbp rax 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 12
+FUNCTION: main
+INS: 0x400531: lea rax, ptr [rbp-0x20] - n 
+RR: 1 rbp 
+WR: 1 rax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 12
+FUNCTION: main
+INS: 0x400535: mov qword ptr [rbp-0x18], rax - w 0x7ffd6ce12a98
+RR: 2 rbp rax 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 13
+FUNCTION: main
+INS: 0x400539: mov eax, 0x0 - n 
+RR: 0 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 14
+FUNCTION: main
+INS: 0x40053e: leave  - n 
+RR: 3 rbp rbp rsp 
+WR: 2 rbp rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample3.c: 0, 14
+FUNCTION: main
+INS: 0x40053f: ret  - n 
+RR: 1 rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+

@@ -1,0 +1,80 @@
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample2.c: 0, 12
+FUNCTION: main
+INS: 0x4004dd: push rbp - n 
+RR: 2 rbp rsp 
+WR: 1 rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample2.c: 0, 12
+FUNCTION: main
+INS: 0x4004de: mov rbp, rsp - n 
+RR: 1 rsp 
+WR: 1 rbp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample2.c: 0, 15
+FUNCTION: main
+INS: 0x4004e1: mov dword ptr [rbp-0x10], 0x4 - w 0x7ffecb4aac00
+RR: 1 rbp 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample2.c: 0, 16
+FUNCTION: main
+INS: 0x4004e8: mov eax, dword ptr [rip+0xa2] - r 0x400590
+RR: 1 rip 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample2.c: 0, 16
+FUNCTION: main
+INS: 0x4004ee: mov dword ptr [rbp-0xc], eax - w 0x7ffecb4aac04
+RR: 2 rbp eax 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample2.c: 0, 17
+FUNCTION: main
+INS: 0x4004f1: mov rax, qword ptr [rbp-0x10] - r 0x7ffecb4aac00
+RR: 1 rbp 
+WR: 1 rax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample2.c: 0, 17
+FUNCTION: main
+INS: 0x4004f5: mov qword ptr [rbp-0x18], rax - w 0x7ffecb4aabf8
+RR: 2 rbp rax 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample2.c: 0, 18
+FUNCTION: main
+INS: 0x4004f9: mov eax, 0x0 - n 
+RR: 0 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample2.c: 0, 19
+FUNCTION: main
+INS: 0x4004fe: pop rbp - n 
+RR: 1 rsp 
+WR: 2 rbp rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/spandan_sample2.c: 0, 19
+FUNCTION: main
+INS: 0x4004ff: ret  - n 
+RR: 1 rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+

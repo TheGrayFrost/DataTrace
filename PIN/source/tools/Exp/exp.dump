@@ -1,0 +1,80 @@
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/exp.c: 0, 4
+FUNCTION: main
+INS: 0x4004dd: push rbp - n 
+RR: 2 rbp rsp 
+WR: 1 rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/exp.c: 0, 4
+FUNCTION: main
+INS: 0x4004de: mov rbp, rsp - n 
+RR: 1 rsp 
+WR: 1 rbp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/exp.c: 0, 5
+FUNCTION: main
+INS: 0x4004e1: mov dword ptr [rbp-0x4], 0xc - w 0x7fff57c4784c
+RR: 1 rbp 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/exp.c: 0, 6
+FUNCTION: main
+INS: 0x4004e8: mov dword ptr [rbp-0x8], 0xb - w 0x7fff57c47848
+RR: 1 rbp 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/exp.c: 0, 7
+FUNCTION: main
+INS: 0x4004ef: cmp dword ptr [rbp-0x8], 0xa - r 0x7fff57c47848
+RR: 1 rbp 
+WR: 1 rflags 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/exp.c: 0, 7
+FUNCTION: main
+INS: 0x4004f3: jnz 0x4004fe - n 
+RR: 2 rip rflags 
+WR: 1 rip 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/exp.c: 0, 13
+FUNCTION: main
+INS: 0x4004fe: mov dword ptr [rbp-0x10], 0x9 - w 0x7fff57c47840
+RR: 1 rbp 
+WR: 0 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/exp.c: 0, 15
+FUNCTION: main
+INS: 0x400505: mov eax, 0x0 - n 
+RR: 0 
+WR: 1 eax 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/exp.c: 0, 16
+FUNCTION: main
+INS: 0x40050a: pop rbp - n 
+RR: 1 rsp 
+WR: 2 rbp rsp 
+SYNC: Has asynchronous access.
+
+THREADID: 0
+LOCATION: /home/srijoni/Vishesh/DataTrace/Work/exp.c: 0, 16
+FUNCTION: main
+INS: 0x40050b: ret  - n 
+RR: 1 rsp 
+WR: 2 rip rsp 
+SYNC: Has asynchronous access.
+

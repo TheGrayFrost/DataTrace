@@ -1,0 +1,585 @@
+bares.out:	file format ELF64-x86-64
+
+.debug_abbrev contents:
+Abbrev table for offset: 0x00000000
+[1] DW_TAG_compile_unit	DW_CHILDREN_yes
+	DW_AT_producer	DW_FORM_strp
+	DW_AT_language	DW_FORM_data1
+	DW_AT_name	DW_FORM_strp
+	DW_AT_comp_dir	DW_FORM_strp
+	DW_AT_low_pc	DW_FORM_addr
+	DW_AT_high_pc	DW_FORM_data8
+	DW_AT_stmt_list	DW_FORM_sec_offset
+
+[2] DW_TAG_base_type	DW_CHILDREN_no
+	DW_AT_byte_size	DW_FORM_data1
+	DW_AT_encoding	DW_FORM_data1
+	DW_AT_name	DW_FORM_strp
+
+[3] DW_TAG_base_type	DW_CHILDREN_no
+	DW_AT_byte_size	DW_FORM_data1
+	DW_AT_encoding	DW_FORM_data1
+	DW_AT_name	DW_FORM_string
+
+[4] DW_TAG_pointer_type	DW_CHILDREN_no
+	DW_AT_byte_size	DW_FORM_data1
+
+[5] DW_TAG_typedef	DW_CHILDREN_no
+	DW_AT_name	DW_FORM_strp
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_type	DW_FORM_ref4
+
+[6] DW_TAG_structure_type	DW_CHILDREN_yes
+	DW_AT_name	DW_FORM_strp
+	DW_AT_byte_size	DW_FORM_data1
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_sibling	DW_FORM_ref4
+
+[7] DW_TAG_member	DW_CHILDREN_no
+	DW_AT_name	DW_FORM_strp
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_type	DW_FORM_ref4
+	DW_AT_data_member_location	DW_FORM_data1
+
+[8] DW_TAG_pointer_type	DW_CHILDREN_no
+	DW_AT_byte_size	DW_FORM_data1
+	DW_AT_type	DW_FORM_ref4
+
+[9] DW_TAG_union_type	DW_CHILDREN_yes
+	DW_AT_byte_size	DW_FORM_data1
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_sibling	DW_FORM_ref4
+
+[10] DW_TAG_member	DW_CHILDREN_no
+	DW_AT_name	DW_FORM_strp
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_type	DW_FORM_ref4
+
+[11] DW_TAG_array_type	DW_CHILDREN_yes
+	DW_AT_type	DW_FORM_ref4
+	DW_AT_sibling	DW_FORM_ref4
+
+[12] DW_TAG_subrange_type	DW_CHILDREN_no
+	DW_AT_type	DW_FORM_ref4
+	DW_AT_upper_bound	DW_FORM_data1
+
+[13] DW_TAG_subprogram	DW_CHILDREN_yes
+	DW_AT_external	DW_FORM_flag_present
+	DW_AT_name	DW_FORM_strp
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_prototyped	DW_FORM_flag_present
+	DW_AT_type	DW_FORM_ref4
+	DW_AT_low_pc	DW_FORM_addr
+	DW_AT_high_pc	DW_FORM_data8
+	DW_AT_frame_base	DW_FORM_exprloc
+	DW_AT_Unknown_2116	DW_FORM_flag_present
+	DW_AT_sibling	DW_FORM_ref4
+
+[14] DW_TAG_formal_parameter	DW_CHILDREN_no
+	DW_AT_name	DW_FORM_string
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_type	DW_FORM_ref4
+	DW_AT_location	DW_FORM_exprloc
+
+[15] DW_TAG_variable	DW_CHILDREN_no
+	DW_AT_name	DW_FORM_string
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_type	DW_FORM_ref4
+	DW_AT_location	DW_FORM_exprloc
+
+[16] DW_TAG_subprogram	DW_CHILDREN_yes
+	DW_AT_external	DW_FORM_flag_present
+	DW_AT_name	DW_FORM_strp
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_type	DW_FORM_ref4
+	DW_AT_low_pc	DW_FORM_addr
+	DW_AT_high_pc	DW_FORM_data8
+	DW_AT_frame_base	DW_FORM_exprloc
+	DW_AT_Unknown_2116	DW_FORM_flag_present
+	DW_AT_sibling	DW_FORM_ref4
+
+[17] DW_TAG_variable	DW_CHILDREN_no
+	DW_AT_name	DW_FORM_strp
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_type	DW_FORM_ref4
+	DW_AT_location	DW_FORM_exprloc
+
+[18] DW_TAG_variable	DW_CHILDREN_no
+	DW_AT_name	DW_FORM_string
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_type	DW_FORM_ref4
+	DW_AT_external	DW_FORM_flag_present
+	DW_AT_location	DW_FORM_exprloc
+
+[19] DW_TAG_variable	DW_CHILDREN_no
+	DW_AT_name	DW_FORM_strp
+	DW_AT_decl_file	DW_FORM_data1
+	DW_AT_decl_line	DW_FORM_data1
+	DW_AT_type	DW_FORM_ref4
+	DW_AT_external	DW_FORM_flag_present
+	DW_AT_location	DW_FORM_exprloc
+
+
+.debug_abbrev.dwo contents:
+< EMPTY >
+
+.debug_info contents:
+0x00000000: Compile Unit: length = 0x00000246 version = 0x0004 abbr_offset = 0x0000 addr_size = 0x08 (next unit at 0x0000024a)
+
+0x0000000b: DW_TAG_compile_unit [1] *
+              DW_AT_producer [DW_FORM_strp]	( .debug_str[0x000000ae] = "GNU C 4.8.5 20150623 (Red Hat 4.8.5-28) -mtune=generic -march=x86-64 -g")
+              DW_AT_language [DW_FORM_data1]	(DW_LANG_C89)
+              DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000126] = "bares.c")
+              DW_AT_comp_dir [DW_FORM_strp]	( .debug_str[0x00000007] = "/home/srijoni/Vishesh/DataTrace/Work")
+              DW_AT_low_pc [DW_FORM_addr]	(0x000000000040081d)
+              DW_AT_high_pc [DW_FORM_data8]	(0x000000000000014d)
+              DW_AT_stmt_list [DW_FORM_sec_offset]	(0x00000000)
+
+0x0000002d:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x08)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_unsigned)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000006a] = "long unsigned int")
+
+0x00000034:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x01)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_unsigned_char)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000086] = "unsigned char")
+
+0x0000003b:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x02)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_unsigned)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000009b] = "short unsigned int")
+
+0x00000042:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x04)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_unsigned)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000006f] = "unsigned int")
+
+0x00000049:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x01)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_signed_char)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000088] = "signed char")
+
+0x00000050:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x02)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_signed)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000171] = "short int")
+
+0x00000057:   DW_TAG_base_type [3]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x04)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_signed)
+                DW_AT_name [DW_FORM_string]	("int")
+
+0x0000005e:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x08)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_signed)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000014a] = "long int")
+
+0x00000065:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x08)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_unsigned)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000136] = "sizetype")
+
+0x0000006c:   DW_TAG_pointer_type [4]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x08)
+
+0x0000006e:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x01)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_signed_char)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000008f] = "char")
+
+0x00000075:   DW_TAG_typedef [5]  
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000007c] = "pthread_t")
+                DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                DW_AT_decl_line [DW_FORM_data1]	(60)
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x002d => {0x0000002d})
+
+0x00000080:   DW_TAG_structure_type [6] *
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x000000ff] = "__pthread_internal_list")
+                DW_AT_byte_size [DW_FORM_data1]	(0x10)
+                DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                DW_AT_decl_line [DW_FORM_data1]	(75)
+                DW_AT_sibling [DW_FORM_ref4]	(cu + 0x00a5 => {0x000000a5})
+
+0x0000008c:     DW_TAG_member [7]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000017b] = "__prev")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(77)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x00a5 => {0x000000a5})
+                  DW_AT_data_member_location [DW_FORM_data1]	(0x00)
+
+0x00000098:     DW_TAG_member [7]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000016a] = "__next")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(78)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x00a5 => {0x000000a5})
+                  DW_AT_data_member_location [DW_FORM_data1]	(0x08)
+
+0x000000a4:     NULL
+
+0x000000a5:   DW_TAG_pointer_type [8]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x08)
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x0080 => {0x00000080})
+
+0x000000ab:   DW_TAG_typedef [5]  
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000182] = "__pthread_list_t")
+                DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                DW_AT_decl_line [DW_FORM_data1]	(79)
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x0080 => {0x00000080})
+
+0x000000b6:   DW_TAG_structure_type [6] *
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000002c] = "__pthread_mutex_s")
+                DW_AT_byte_size [DW_FORM_data1]	(0x28)
+                DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                DW_AT_decl_line [DW_FORM_data1]	(92)
+                DW_AT_sibling [DW_FORM_ref4]	(cu + 0x0123 => {0x00000123})
+
+0x000000c2:     DW_TAG_member [7]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000153] = "__lock")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(94)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0057 => {0x00000057})
+                  DW_AT_data_member_location [DW_FORM_data1]	(0x00)
+
+0x000000ce:     DW_TAG_member [7]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000162] = "__count")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(95)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0042 => {0x00000042})
+                  DW_AT_data_member_location [DW_FORM_data1]	(0x04)
+
+0x000000da:     DW_TAG_member [7]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000003e] = "__owner")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(96)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0057 => {0x00000057})
+                  DW_AT_data_member_location [DW_FORM_data1]	(0x08)
+
+0x000000e6:     DW_TAG_member [7]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x000000f6] = "__nusers")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(98)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0042 => {0x00000042})
+                  DW_AT_data_member_location [DW_FORM_data1]	(0x0c)
+
+0x000000f2:     DW_TAG_member [7]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000046] = "__kind")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(102)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0057 => {0x00000057})
+                  DW_AT_data_member_location [DW_FORM_data1]	(0x10)
+
+0x000000fe:     DW_TAG_member [7]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000012e] = "__spins")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(104)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0050 => {0x00000050})
+                  DW_AT_data_member_location [DW_FORM_data1]	(0x14)
+
+0x0000010a:     DW_TAG_member [7]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000117] = "__elision")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(105)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0050 => {0x00000050})
+                  DW_AT_data_member_location [DW_FORM_data1]	(0x16)
+
+0x00000116:     DW_TAG_member [7]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000193] = "__list")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(106)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x00ab => {0x000000ab})
+                  DW_AT_data_member_location [DW_FORM_data1]	(0x18)
+
+0x00000122:     NULL
+
+0x00000123:   DW_TAG_union_type [9] *
+                DW_AT_byte_size [DW_FORM_data1]	(0x28)
+                DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                DW_AT_decl_line [DW_FORM_data1]	(90)
+                DW_AT_sibling [DW_FORM_ref4]	(cu + 0x014d => {0x0000014d})
+
+0x0000012b:     DW_TAG_member [10]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000000] = "__data")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(124)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x00b6 => {0x000000b6})
+
+0x00000136:     DW_TAG_member [10]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000094] = "__size")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(125)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x014d => {0x0000014d})
+
+0x00000141:     DW_TAG_member [10]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000015a] = "__align")
+                  DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                  DW_AT_decl_line [DW_FORM_data1]	(126)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x005e => {0x0000005e})
+
+0x0000014c:     NULL
+
+0x0000014d:   DW_TAG_array_type [11] *
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x006e => {0x0000006e})
+                DW_AT_sibling [DW_FORM_ref4]	(cu + 0x015d => {0x0000015d})
+
+0x00000156:     DW_TAG_subrange_type [12]  
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0065 => {0x00000065})
+                  DW_AT_upper_bound [DW_FORM_data1]	(0x27)
+
+0x0000015c:     NULL
+
+0x0000015d:   DW_TAG_typedef [5]  
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000004d] = "pthread_mutex_t")
+                DW_AT_decl_file [DW_FORM_data1]	("/usr/include/bits/pthreadtypes.h")
+                DW_AT_decl_line [DW_FORM_data1]	(127)
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x0123 => {0x00000123})
+
+0x00000168:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x08)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_unsigned)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000065] = "long long unsigned int")
+
+0x0000016f:   DW_TAG_base_type [2]  
+                DW_AT_byte_size [DW_FORM_data1]	(0x08)
+                DW_AT_encoding [DW_FORM_data1]	(DW_ATE_signed)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000145] = "long long int")
+
+0x00000176:   DW_TAG_subprogram [13] *
+                DW_AT_external [DW_FORM_flag_present]	(true)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000019a] = "trythis")
+                DW_AT_decl_file [DW_FORM_data1]	("/home/srijoni/Vishesh/DataTrace/Work/bares.c")
+                DW_AT_decl_line [DW_FORM_data1]	(11)
+                DW_AT_prototyped [DW_FORM_flag_present]	(true)
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x006c => {0x0000006c})
+                DW_AT_low_pc [DW_FORM_addr]	(0x000000000040081d)
+                DW_AT_high_pc [DW_FORM_data8]	(0x0000000000000076)
+                DW_AT_frame_base [DW_FORM_exprloc]	(<0x1> 9c )
+                DW_AT_Unknown_2116 [DW_FORM_flag_present]	(true)
+                DW_AT_sibling [DW_FORM_ref4]	(cu + 0x01b2 => {0x000001b2})
+
+0x00000197:     DW_TAG_formal_parameter [14]  
+                  DW_AT_name [DW_FORM_string]	("arg")
+                  DW_AT_decl_file [DW_FORM_data1]	("/home/srijoni/Vishesh/DataTrace/Work/bares.c")
+                  DW_AT_decl_line [DW_FORM_data1]	(11)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x006c => {0x0000006c})
+                  DW_AT_location [DW_FORM_exprloc]	(<0x2> 91 58 )
+
+0x000001a5:     DW_TAG_variable [15]  
+                  DW_AT_name [DW_FORM_string]	("i")
+                  DW_AT_decl_file [DW_FORM_data1]	("/home/srijoni/Vishesh/DataTrace/Work/bares.c")
+                  DW_AT_decl_line [DW_FORM_data1]	(16)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x002d => {0x0000002d})
+                  DW_AT_location [DW_FORM_exprloc]	(<0x2> 91 68 )
+
+0x000001b1:     NULL
+
+0x000001b2:   DW_TAG_subprogram [16] *
+                DW_AT_external [DW_FORM_flag_present]	(true)
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000121] = "main")
+                DW_AT_decl_file [DW_FORM_data1]	("/home/srijoni/Vishesh/DataTrace/Work/bares.c")
+                DW_AT_decl_line [DW_FORM_data1]	(28)
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x0057 => {0x00000057})
+                DW_AT_low_pc [DW_FORM_addr]	(0x0000000000400893)
+                DW_AT_high_pc [DW_FORM_data8]	(0x00000000000000d7)
+                DW_AT_frame_base [DW_FORM_exprloc]	(<0x1> 9c )
+                DW_AT_Unknown_2116 [DW_FORM_flag_present]	(true)
+                DW_AT_sibling [DW_FORM_ref4]	(cu + 0x01fa => {0x000001fa})
+
+0x000001d3:     DW_TAG_variable [15]  
+                  DW_AT_name [DW_FORM_string]	("i")
+                  DW_AT_decl_file [DW_FORM_data1]	("/home/srijoni/Vishesh/DataTrace/Work/bares.c")
+                  DW_AT_decl_line [DW_FORM_data1]	(30)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0057 => {0x00000057})
+                  DW_AT_location [DW_FORM_exprloc]	(<0x2> 91 6c )
+
+0x000001df:     DW_TAG_variable [15]  
+                  DW_AT_name [DW_FORM_string]	("j")
+                  DW_AT_decl_file [DW_FORM_data1]	("/home/srijoni/Vishesh/DataTrace/Work/bares.c")
+                  DW_AT_decl_line [DW_FORM_data1]	(30)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0057 => {0x00000057})
+                  DW_AT_location [DW_FORM_exprloc]	(<0x2> 91 68 )
+
+0x000001eb:     DW_TAG_variable [17]  
+                  DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000013f] = "error")
+                  DW_AT_decl_file [DW_FORM_data1]	("/home/srijoni/Vishesh/DataTrace/Work/bares.c")
+                  DW_AT_decl_line [DW_FORM_data1]	(31)
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0057 => {0x00000057})
+                  DW_AT_location [DW_FORM_exprloc]	(<0x2> 91 64 )
+
+0x000001f9:     NULL
+
+0x000001fa:   DW_TAG_array_type [11] *
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x0075 => {0x00000075})
+                DW_AT_sibling [DW_FORM_ref4]	(cu + 0x020a => {0x0000020a})
+
+0x00000203:     DW_TAG_subrange_type [12]  
+                  DW_AT_type [DW_FORM_ref4]	(cu + 0x0065 => {0x00000065})
+                  DW_AT_upper_bound [DW_FORM_data1]	(0x01)
+
+0x00000209:     NULL
+
+0x0000020a:   DW_TAG_variable [18]  
+                DW_AT_name [DW_FORM_string]	("tid")
+                DW_AT_decl_file [DW_FORM_data1]	("/home/srijoni/Vishesh/DataTrace/Work/bares.c")
+                DW_AT_decl_line [DW_FORM_data1]	(7)
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x01fa => {0x000001fa})
+                DW_AT_external [DW_FORM_flag_present]	(true)
+                DW_AT_location [DW_FORM_exprloc]	(<0x9> 03 d0 10 60 00 00 00 00 00 )
+
+0x0000021f:   DW_TAG_variable [19]  
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x0000005d] = "counter")
+                DW_AT_decl_file [DW_FORM_data1]	("/home/srijoni/Vishesh/DataTrace/Work/bares.c")
+                DW_AT_decl_line [DW_FORM_data1]	(8)
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x0057 => {0x00000057})
+                DW_AT_external [DW_FORM_flag_present]	(true)
+                DW_AT_location [DW_FORM_exprloc]	(<0x9> 03 c8 10 60 00 00 00 00 00 )
+
+0x00000234:   DW_TAG_variable [19]  
+                DW_AT_name [DW_FORM_strp]	( .debug_str[0x00000155] = "lock")
+                DW_AT_decl_file [DW_FORM_data1]	("/home/srijoni/Vishesh/DataTrace/Work/bares.c")
+                DW_AT_decl_line [DW_FORM_data1]	(9)
+                DW_AT_type [DW_FORM_ref4]	(cu + 0x015d => {0x0000015d})
+                DW_AT_external [DW_FORM_flag_present]	(true)
+                DW_AT_location [DW_FORM_exprloc]	(<0x9> 03 a0 10 60 00 00 00 00 00 )
+
+0x00000249:   NULL
+
+.debug_loc contents:
+
+.debug_loc.dwo contents:
+
+.debug_frame contents:
+
+
+.debug_macinfo contents:
+
+.debug_aranges contents:
+Address Range Header: length = 0x0000002c, version = 0x0002, cu_offset = 0x00000000, addr_size = 0x08, seg_size = 0x00
+[0x000000000040081d - 0x000000000040096a)
+
+.debug_line contents:
+Line table prologue:
+    total_length: 0x00000081
+         version: 2
+ prologue_length: 0x00000042
+ min_inst_length: 1
+ default_is_stmt: 1
+       line_base: -5
+      line_range: 14
+     opcode_base: 13
+standard_opcode_lengths[DW_LNS_copy] = 0
+standard_opcode_lengths[DW_LNS_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_advance_line] = 1
+standard_opcode_lengths[DW_LNS_set_file] = 1
+standard_opcode_lengths[DW_LNS_set_column] = 1
+standard_opcode_lengths[DW_LNS_negate_stmt] = 0
+standard_opcode_lengths[DW_LNS_set_basic_block] = 0
+standard_opcode_lengths[DW_LNS_const_add_pc] = 0
+standard_opcode_lengths[DW_LNS_fixed_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_set_prologue_end] = 0
+standard_opcode_lengths[DW_LNS_set_epilogue_begin] = 0
+standard_opcode_lengths[DW_LNS_set_isa] = 1
+include_directories[  1] = '/usr/include/bits'
+                Dir  Mod Time   File Len   File Name
+                ---- ---------- ---------- ---------------------------
+file_names[  1]    0 0x00000000 0x00000000 bares.c
+file_names[  2]    1 0x00000000 0x00000000 pthreadtypes.h
+
+Address            Line   Column File   ISA Discriminator Flags
+------------------ ------ ------ ------ --- ------------- -------------
+0x000000000040081d     12      0      1   0             0  is_stmt
+0x0000000000400829     13      0      1   0             0  is_stmt
+0x0000000000400840     14      0      1   0             0  is_stmt
+0x000000000040084a     16      0      1   0             0  is_stmt
+0x0000000000400852     17      0      1   0             0  is_stmt
+0x0000000000400861     19      0      1   0             0  is_stmt
+0x000000000040086b     21      0      1   0             0  is_stmt
+0x0000000000400882     23      0      1   0             0  is_stmt
+0x000000000040088c     25      0      1   0             0  is_stmt
+0x0000000000400891     26      0      1   0             0  is_stmt
+0x0000000000400893     29      0      1   0             0  is_stmt
+0x000000000040089b     30      0      1   0             0  is_stmt
+0x00000000004008a9     32      0      1   0             0  is_stmt
+0x00000000004008b3     34      0      1   0             0  is_stmt
+0x00000000004008c6     36      0      1   0             0  is_stmt
+0x00000000004008d0     37      0      1   0             0  is_stmt
+0x00000000004008da     40      0      1   0             0  is_stmt
+0x00000000004008dc     42      0      1   0             0  is_stmt
+0x0000000000400905     43      0      1   0             0  is_stmt
+0x000000000040090b     44      0      1   0             0  is_stmt
+0x0000000000400927     45      0      1   0             0  is_stmt
+0x000000000040092b     40      0      1   0             1  is_stmt
+0x0000000000400931     48      0      1   0             0  is_stmt
+0x0000000000400945     49      0      1   0             0  is_stmt
+0x0000000000400959     50      0      1   0             0  is_stmt
+0x0000000000400963     52      0      1   0             0  is_stmt
+0x0000000000400968     53      0      1   0             0  is_stmt
+0x000000000040096a     53      0      1   0             0  is_stmt end_sequence
+
+.debug_cu_index contents:
+
+.debug_tu_index contents:
+
+.debug_line.dwo contents:
+
+.debug_str contents:
+0x00000000: "__data"
+0x00000007: "/home/srijoni/Vishesh/DataTrace/Work"
+0x0000002c: "__pthread_mutex_s"
+0x0000003e: "__owner"
+0x00000046: "__kind"
+0x0000004d: "pthread_mutex_t"
+0x0000005d: "counter"
+0x00000065: "long long unsigned int"
+0x0000007c: "pthread_t"
+0x00000086: "unsigned char"
+0x00000094: "__size"
+0x0000009b: "short unsigned int"
+0x000000ae: "GNU C 4.8.5 20150623 (Red Hat 4.8.5-28) -mtune=generic -march=x86-64 -g"
+0x000000f6: "__nusers"
+0x000000ff: "__pthread_internal_list"
+0x00000117: "__elision"
+0x00000121: "main"
+0x00000126: "bares.c"
+0x0000012e: "__spins"
+0x00000136: "sizetype"
+0x0000013f: "error"
+0x00000145: "long long int"
+0x00000153: "__lock"
+0x0000015a: "__align"
+0x00000162: "__count"
+0x0000016a: "__next"
+0x00000171: "short int"
+0x0000017b: "__prev"
+0x00000182: "__pthread_list_t"
+0x00000193: "__list"
+0x0000019a: "trythis"
+
+.debug_ranges contents:
+
+.debug_pubnames contents: a
+
+.debug_pubtypes contents: a
+
+.debug_gnu_pubnames contents: a
+
+.debug_gnu_pubtypes contents: a
+
+.apple_names contents:
+
+.apple_types contents:
+
+.apple_namespaces contents:
+
+.apple_objc contents:
